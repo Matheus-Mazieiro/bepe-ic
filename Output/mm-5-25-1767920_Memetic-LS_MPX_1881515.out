@@ -1,0 +1,77 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-5-25-1767920.cdop
+Total node count:         31
+Truck node count:         5
+Drone node count:         25
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic-LS_MPX_1881515.config
+Seed:                 1881515
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MPX
+Local Search:         -
+==============================
+
+====== Algorithm Status ======
+Valor:                4455
+Time:                 250
+nIter:                305
+Best Iter:            305
+Improvement Count:    304
+==============================
+Solution tour: 
+0 18 7 9 20 22 20 
+4 10 13 10 
+2 14 17 21 15 21 23 
+3 23 16 12 24 11 30 11 8 24 8 7 18 17 7 17 27 29 25 29 1 23 28 23 1 26 
+1 19 
+==============================
+
+====== Algorithm Status ======
+Valor:                4455
+Time:                 500
+nIter:                592
+Best Iter:            592
+Improvement Count:    591
+==============================
+Solution tour: 
+0 18 7 9 20 22 20 
+4 10 13 10 
+2 14 17 21 15 21 23 
+3 23 16 12 24 11 30 11 8 24 8 7 18 17 7 17 27 29 25 29 1 23 28 23 1 26 
+1 19 
+==============================
+
+====== Algorithm Status ======
+Valor:                4142
+Time:                 1002
+nIter:                1179
+Best Iter:            1179
+Improvement Count:    1180
+==============================
+Solution tour: 
+0 18 7 9 20 22 20 
+4 10 13 10 
+2 14 17 21 15 21 23 
+3 23 16 12 24 11 30 11 8 24 8 7 18 17 7 17 29 25 29 1 23 28 23 26 
+1 19 
+==============================
+
+====== Algorithm Status ======
+Valor:                4142
+Time:                 1002
+nIter:                1179
+Best Iter:            1179
+Improvement Count:    1180
+==============================
+Solution tour: 
+0 18 7 9 20 22 20 
+4 10 13 10 
+2 14 17 21 15 21 23 
+3 23 16 12 24 11 30 11 8 24 8 7 18 17 7 17 29 25 29 1 23 28 23 26 
+1 19 
+==============================
+

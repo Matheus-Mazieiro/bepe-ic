@@ -1,0 +1,101 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-15-10-1110588.cdop
+Total node count:         26
+Truck node count:         15
+Drone node count:         10
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic_MPX_1881515.config
+Seed:                 1881515
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MPX
+Local Search:         LS
+==============================
+
+====== Algorithm Status ======
+Valor:                3449
+Time:                 250
+nIter:                85
+Best Iter:            85
+Improvement Count:    84
+==============================
+Solution tour: 
+0 23 0 13 21 
+3 14 7 15 22 24 25 24 14 
+5 16 19 18 3 21 13 
+2 13 24 13 0 4 
+7 17 7 
+10 13 
+9 
+1 
+12 5 12 
+14 24 
+6 0 6 21 
+==============================
+
+====== Algorithm Status ======
+Valor:                3449
+Time:                 500
+nIter:                169
+Best Iter:            169
+Improvement Count:    168
+==============================
+Solution tour: 
+0 23 0 13 21 
+3 14 7 15 22 24 25 24 14 
+5 16 19 18 3 21 13 
+2 13 24 13 0 4 
+7 17 7 
+10 13 
+9 
+1 
+12 5 12 
+14 24 
+6 0 6 21 
+==============================
+
+====== Algorithm Status ======
+Valor:                3501
+Time:                 1004
+nIter:                345
+Best Iter:            345
+Improvement Count:    346
+==============================
+Solution tour: 
+0 23 0 13 21 
+3 14 7 15 22 24 25 24 14 
+5 16 19 18 3 21 13 
+2 13 24 13 0 4 
+7 17 7 
+10 13 
+9 12 
+1 
+12 5 12 
+14 24 
+6 0 6 21 
+==============================
+
+====== Algorithm Status ======
+Valor:                3501
+Time:                 1004
+nIter:                345
+Best Iter:            345
+Improvement Count:    346
+==============================
+Solution tour: 
+0 23 0 13 21 
+3 14 7 15 22 24 25 24 14 
+5 16 19 18 3 21 13 
+2 13 24 13 0 4 
+7 17 7 
+10 13 
+9 12 
+1 
+12 5 12 
+14 24 
+6 0 6 21 
+==============================
+

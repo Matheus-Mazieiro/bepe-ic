@@ -1,0 +1,135 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-20-10-1917698.cdop
+Total node count:         31
+Truck node count:         20
+Drone node count:         10
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic-LS_MMX_1287823.config
+Seed:                 1287823
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MMX
+Local Search:         -
+==============================
+
+====== Algorithm Status ======
+Valor:                2.122e-314
+Time:                 250
+nIter:                449
+Best Iter:            449
+Improvement Count:    448
+==============================
+Solution tour: 
+0 
+20 
+16 
+18 
+8 26 28 
+17 25 
+12 
+15 
+1 
+6 
+5 
+2 24 23 
+13 29 
+14 
+7 
+11 
+4 
+9 27 
+3 
+19 22 21 30 
+10 
+==============================
+
+====== Algorithm Status ======
+Valor:                2.122e-314
+Time:                 500
+nIter:                899
+Best Iter:            899
+Improvement Count:    898
+==============================
+Solution tour: 
+0 
+20 
+16 
+18 
+8 26 28 
+17 25 
+12 
+15 
+1 
+6 
+5 
+2 24 23 
+13 29 
+14 
+7 
+11 
+4 
+9 27 
+3 
+19 22 21 30 
+10 
+==============================
+
+====== Algorithm Status ======
+Valor:                715
+Time:                 1001
+nIter:                1871
+Best Iter:            1871
+Improvement Count:    1872
+==============================
+Solution tour: 
+0 
+20 
+18 25 
+12 
+15 
+1 
+6 
+5 
+2 
+13 
+14 
+7 
+11 
+4 
+9 
+3 
+19 
+10 
+==============================
+
+====== Algorithm Status ======
+Valor:                715
+Time:                 1001
+nIter:                1871
+Best Iter:            1871
+Improvement Count:    1872
+==============================
+Solution tour: 
+0 
+20 
+18 25 
+12 
+15 
+1 
+6 
+5 
+2 
+13 
+14 
+7 
+11 
+4 
+9 
+3 
+19 
+10 
+==============================
+

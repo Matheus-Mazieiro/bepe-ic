@@ -1,0 +1,77 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-5-25-1891798.cdop
+Total node count:         31
+Truck node count:         5
+Drone node count:         25
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic_MPX_1099666.config
+Seed:                 1099666
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MPX
+Local Search:         LS
+==============================
+
+====== Algorithm Status ======
+Valor:                4866
+Time:                 250
+nIter:                70
+Best Iter:            70
+Improvement Count:    69
+==============================
+Solution tour: 
+0 21 19 11 21 11 19 21 0 25 5 30 
+5 22 6 4 8 18 9 15 4 
+2 4 10 4 13 20 7 20 14 12 14 23 29 26 10 27 6 22 16 24 23 7 3 20 
+3 7 1 4 1 13 
+1 13 4 6 28 6 11 
+==============================
+
+====== Algorithm Status ======
+Valor:                4866
+Time:                 503
+nIter:                128
+Best Iter:            128
+Improvement Count:    127
+==============================
+Solution tour: 
+0 21 19 11 21 11 19 21 0 25 5 30 
+5 22 6 4 8 18 9 15 4 
+2 4 10 4 13 20 7 20 14 12 14 23 29 26 10 27 6 22 16 24 23 7 3 20 
+3 7 1 4 1 13 
+1 13 4 6 28 6 11 
+==============================
+
+====== Algorithm Status ======
+Valor:                4999
+Time:                 1005
+nIter:                238
+Best Iter:            238
+Improvement Count:    239
+==============================
+Solution tour: 
+0 21 19 11 21 11 19 21 0 11 0 25 5 30 
+5 22 6 4 8 18 9 15 4 
+2 4 10 4 13 1 7 20 14 12 14 23 29 26 10 27 6 22 16 24 12 20 7 3 20 
+3 7 1 4 1 13 
+4 6 28 
+==============================
+
+====== Algorithm Status ======
+Valor:                4999
+Time:                 1005
+nIter:                238
+Best Iter:            238
+Improvement Count:    239
+==============================
+Solution tour: 
+0 21 19 11 21 11 19 21 0 11 0 25 5 30 
+5 22 6 4 8 18 9 15 4 
+2 4 10 4 13 1 7 20 14 12 14 23 29 26 10 27 6 22 16 24 12 20 7 3 20 
+3 7 1 4 1 13 
+4 6 28 
+==============================
+

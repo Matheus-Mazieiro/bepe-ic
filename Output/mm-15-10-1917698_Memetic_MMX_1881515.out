@@ -1,0 +1,69 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-15-10-1917698.cdop
+Total node count:         26
+Truck node count:         15
+Drone node count:         10
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic_MMX_1881515.config
+Seed:                 1881515
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MMX
+Local Search:         LS
+==============================
+
+====== Algorithm Status ======
+Valor:                3836
+Time:                 251
+nIter:                50
+Best Iter:            50
+Improvement Count:    49
+==============================
+Solution tour: 
+0 17 2 8 2 17 0 23 2 23 0 14 0 2 5 9 
+4 9 6 9 12 15 14 18 14 22 25 20 25 22 
+3 13 14 13 19 13 3 15 12 9 22 21 22 14 4 17 4 23 
+==============================
+
+====== Algorithm Status ======
+Valor:                3844
+Time:                 503
+nIter:                98
+Best Iter:            98
+Improvement Count:    97
+==============================
+Solution tour: 
+0 17 8 2 17 0 23 2 23 0 14 0 17 2 5 9 
+4 9 18 6 9 12 15 14 18 14 22 25 20 25 22 
+3 13 14 13 19 13 3 15 12 9 22 21 22 14 4 17 4 17 
+==============================
+
+====== Algorithm Status ======
+Valor:                3888
+Time:                 1006
+nIter:                194
+Best Iter:            194
+Improvement Count:    195
+==============================
+Solution tour: 
+0 17 8 17 0 23 2 17 2 23 0 14 0 2 5 9 
+4 9 18 9 6 9 12 15 14 18 14 22 20 25 20 22 3 12 
+3 13 14 13 19 13 3 15 12 9 22 21 22 14 4 17 4 23 
+==============================
+
+====== Algorithm Status ======
+Valor:                3888
+Time:                 1006
+nIter:                194
+Best Iter:            194
+Improvement Count:    195
+==============================
+Solution tour: 
+0 17 8 17 0 23 2 17 2 23 0 14 0 2 5 9 
+4 9 18 9 6 9 12 15 14 18 14 22 20 25 20 22 3 12 
+3 13 14 13 19 13 3 15 12 9 22 21 22 14 4 17 4 23 
+==============================
+

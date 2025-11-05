@@ -1,0 +1,137 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-20-25-1891798.cdop
+Total node count:         46
+Truck node count:         20
+Drone node count:         25
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic-LS_MPX_1287823.config
+Seed:                 1287823
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MPX
+Local Search:         -
+==============================
+
+====== Algorithm Status ======
+Valor:                2126
+Time:                 250
+nIter:                119
+Best Iter:            119
+Improvement Count:    118
+==============================
+Solution tour: 
+0 42 27 38 41 31 
+1 
+6 39 26 40 45 21 36 24 
+2 34 
+13 
+20 
+7 33 
+9 37 43 
+11 
+18 
+4 23 
+10 30 44 
+12 
+15 
+5 32 22 
+16 
+3 
+14 
+19 
+17 29 35 28 
+8 25 
+==============================
+
+====== Algorithm Status ======
+Valor:                2126
+Time:                 501
+nIter:                236
+Best Iter:            236
+Improvement Count:    235
+==============================
+Solution tour: 
+0 42 27 38 41 31 
+1 
+6 39 26 40 45 21 36 24 
+2 34 
+13 
+20 
+7 33 
+9 37 43 
+11 
+18 
+4 23 
+10 30 44 
+12 
+15 
+5 32 22 
+16 
+3 
+14 
+19 
+17 29 35 28 
+8 25 
+==============================
+
+====== Algorithm Status ======
+Valor:                745
+Time:                 1002
+nIter:                457
+Best Iter:            457
+Improvement Count:    458
+==============================
+Solution tour: 
+0 
+1 
+6 
+2 
+13 
+20 
+9 
+11 
+18 
+4 
+10 
+12 
+15 
+5 
+16 
+3 
+14 
+19 
+8 25 
+==============================
+
+====== Algorithm Status ======
+Valor:                745
+Time:                 1002
+nIter:                457
+Best Iter:            457
+Improvement Count:    458
+==============================
+Solution tour: 
+0 
+1 
+6 
+2 
+13 
+20 
+9 
+11 
+18 
+4 
+10 
+12 
+15 
+5 
+16 
+3 
+14 
+19 
+8 25 
+==============================
+

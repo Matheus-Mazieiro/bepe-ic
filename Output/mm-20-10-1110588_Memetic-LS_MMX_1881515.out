@@ -1,0 +1,131 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-20-10-1110588.cdop
+Total node count:         31
+Truck node count:         20
+Drone node count:         10
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic-LS_MMX_1881515.config
+Seed:                 1881515
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MMX
+Local Search:         -
+==============================
+
+====== Algorithm Status ======
+Valor:                2582
+Time:                 250
+nIter:                654
+Best Iter:            654
+Improvement Count:    653
+==============================
+Solution tour: 
+0 
+13 24 
+2 
+6 25 30 
+16 
+19 22 25 6 23 
+18 
+12 14 27 14 20 4 20 4 
+1 29 5 4 12 
+9 
+11 
+15 11 
+10 
+7 
+17 12 
+4 
+5 
+14 
+3 
+==============================
+
+====== Algorithm Status ======
+Valor:                2638
+Time:                 500
+nIter:                1310
+Best Iter:            1310
+Improvement Count:    1309
+==============================
+Solution tour: 
+0 
+13 24 
+2 
+6 25 30 
+16 
+19 22 25 6 23 
+18 
+12 14 27 14 4 20 4 
+1 29 5 4 12 
+9 
+11 
+15 11 
+10 
+7 
+17 12 
+4 
+5 
+14 
+3 
+==============================
+
+====== Algorithm Status ======
+Valor:                2653
+Time:                 1001
+nIter:                2569
+Best Iter:            2569
+Improvement Count:    2570
+==============================
+Solution tour: 
+0 
+13 24 
+2 
+6 25 30 
+16 
+19 22 25 6 23 
+18 
+12 14 27 14 4 20 4 
+1 29 5 4 12 
+9 12 
+15 11 
+10 
+7 
+17 12 
+4 
+5 
+14 
+3 
+==============================
+
+====== Algorithm Status ======
+Valor:                2653
+Time:                 1001
+nIter:                2569
+Best Iter:            2569
+Improvement Count:    2570
+==============================
+Solution tour: 
+0 
+13 24 
+2 
+6 25 30 
+16 
+19 22 25 6 23 
+18 
+12 14 27 14 4 20 4 
+1 29 5 4 12 
+9 12 
+15 11 
+10 
+7 
+17 12 
+4 
+5 
+14 
+3 
+==============================
+

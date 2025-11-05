@@ -1,0 +1,17 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-10-40-1767920.cdop
+Total node count:         51
+Truck node count:         10
+Drone node count:         40
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Exact.config
+Seed:                 42
+Reduction method:     -
+Max iter:             1024000
+Population size:      13
+Crossover:            -
+Local Search:         -
+==============================
+

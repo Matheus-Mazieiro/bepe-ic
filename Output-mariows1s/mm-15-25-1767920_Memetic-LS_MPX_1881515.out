@@ -1,0 +1,117 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-15-25-1767920.cdop
+Total node count:         41
+Truck node count:         15
+Drone node count:         25
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic-LS_MPX_1881515.config
+Seed:                 1881515
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MPX
+Local Search:         -
+==============================
+
+====== Algorithm Status ======
+Valor:                3752
+Time:                 250
+nIter:                262
+Best Iter:            262
+Improvement Count:    261
+==============================
+Solution tour: 
+0 38 
+14 40 
+11 18 
+4 
+5 32 16 
+2 
+7 31 0 
+8 
+12 14 37 40 34 1 20 1 28 16 
+6 
+9 27 9 
+10 15 10 15 27 9 
+3 16 25 23 7 25 7 8 17 16 17 
+1 17 7 4 21 4 7 24 
+13 26 20 
+==============================
+
+====== Algorithm Status ======
+Valor:                3752
+Time:                 500
+nIter:                508
+Best Iter:            508
+Improvement Count:    507
+==============================
+Solution tour: 
+0 38 
+14 40 
+11 18 
+4 
+5 32 16 
+2 
+7 31 0 
+8 
+12 14 37 40 34 1 20 1 28 16 
+6 
+9 27 9 
+10 15 10 15 27 9 
+3 16 25 23 7 25 7 8 17 16 17 
+1 17 7 4 21 4 7 24 
+13 26 20 
+==============================
+
+====== Algorithm Status ======
+Valor:                3752
+Time:                 1001
+nIter:                1059
+Best Iter:            1059
+Improvement Count:    1060
+==============================
+Solution tour: 
+0 38 
+14 40 
+11 18 
+4 
+5 32 16 
+2 
+7 31 0 
+8 
+12 14 37 40 34 1 20 1 28 16 
+6 
+9 27 9 
+10 15 10 15 27 9 
+3 16 25 23 7 25 7 8 17 16 17 
+1 17 7 4 21 4 7 24 
+13 26 20 
+==============================
+
+====== Algorithm Status ======
+Valor:                3752
+Time:                 1001
+nIter:                1059
+Best Iter:            1059
+Improvement Count:    1060
+==============================
+Solution tour: 
+0 38 
+14 40 
+11 18 
+4 
+5 32 16 
+2 
+7 31 0 
+8 
+12 14 37 40 34 1 20 1 28 16 
+6 
+9 27 9 
+10 15 10 15 27 9 
+3 16 25 23 7 25 7 8 17 16 17 
+1 17 7 4 21 4 7 24 
+13 26 20 
+==============================
+

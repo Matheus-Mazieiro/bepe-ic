@@ -1,0 +1,79 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-5-25-1110588.cdop
+Total node count:         31
+Truck node count:         5
+Drone node count:         25
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic_MPX_1881515.config
+Seed:                 1881515
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MPX
+Local Search:         LS
+==============================
+
+====== Algorithm Status ======
+Valor:                4903
+Time:                 251
+nIter:                51
+Best Iter:            51
+Improvement Count:    50
+==============================
+Solution tour: 
+0 11 24 10 25 8 25 0 18 30 13 14 7 14 13 30 16 27 2 27 20 10 8 10 20 6 17 27 17 6 
+2 21 2 27 6 28 6 27 24 11 
+4 12 
+3 30 3 24 0 24 17 24 5 22 19 12 7 
+5 6 20 27 23 21 23 18 
+==============================
+
+====== Algorithm Status ======
+Valor:                4903
+Time:                 503
+nIter:                90
+Best Iter:            90
+Improvement Count:    89
+==============================
+Solution tour: 
+0 11 24 10 25 8 25 0 18 30 13 14 7 14 13 30 16 27 2 27 20 10 8 10 20 6 17 27 17 6 
+2 21 2 27 6 28 6 27 24 11 
+4 12 
+3 30 3 24 0 24 17 24 5 22 19 12 7 
+5 6 20 27 23 21 23 18 
+==============================
+
+====== Algorithm Status ======
+Valor:                5143
+Time:                 1003
+nIter:                193
+Best Iter:            193
+Improvement Count:    194
+==============================
+Solution tour: 
+0 11 24 0 25 8 25 0 18 30 13 5 14 7 14 13 30 16 27 2 27 20 10 8 10 20 6 17 27 17 6 
+3 30 3 24 0 24 17 24 11 5 22 19 
+1 19 12 
+4 15 13 14 
+5 6 20 27 23 21 23 
+2 21 2 27 6 28 6 27 11 
+==============================
+
+====== Algorithm Status ======
+Valor:                5143
+Time:                 1003
+nIter:                193
+Best Iter:            193
+Improvement Count:    194
+==============================
+Solution tour: 
+0 11 24 0 25 8 25 0 18 30 13 5 14 7 14 13 30 16 27 2 27 20 10 8 10 20 6 17 27 17 6 
+3 30 3 24 0 24 17 24 11 5 22 19 
+1 19 12 
+4 15 13 14 
+5 6 20 27 23 21 23 
+2 21 2 27 6 28 6 27 11 
+==============================
+

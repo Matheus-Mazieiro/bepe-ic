@@ -1,0 +1,133 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-25-25-1762875.cdop
+Total node count:         51
+Truck node count:         25
+Drone node count:         25
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic-LS_MMX_1099666.config
+Seed:                 1099666
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MMX
+Local Search:         -
+==============================
+
+====== Algorithm Status ======
+Valor:                3742
+Time:                 253
+nIter:                303
+Best Iter:            303
+Improvement Count:    302
+==============================
+Solution tour: 
+0 7 0 
+5 
+16 
+14 41 8 41 35 8 37 
+24 30 
+13 24 
+10 
+1 40 44 27 39 36 39 36 
+12 
+23 37 
+3 34 49 29 42 29 22 42 22 
+11 
+18 38 
+22 
+19 
+9 
+21 
+15 48 
+6 47 
+==============================
+
+====== Algorithm Status ======
+Valor:                3820
+Time:                 500
+nIter:                569
+Best Iter:            569
+Improvement Count:    568
+==============================
+Solution tour: 
+0 7 0 
+5 
+16 
+14 41 8 41 35 37 
+24 30 
+13 24 
+10 
+1 40 27 44 39 36 39 
+12 
+23 
+3 34 49 29 42 29 22 42 22 
+11 
+18 38 
+22 
+19 
+9 
+21 
+15 48 
+6 47 
+==============================
+
+====== Algorithm Status ======
+Valor:                3820
+Time:                 1001
+nIter:                1148
+Best Iter:            1148
+Improvement Count:    1149
+==============================
+Solution tour: 
+0 7 0 
+5 
+16 
+14 41 8 41 35 37 
+24 30 
+13 24 
+10 
+1 40 27 44 39 36 39 
+12 
+23 
+3 34 49 29 42 29 22 42 22 
+11 
+18 38 
+22 
+19 
+9 
+21 
+15 48 
+6 47 
+==============================
+
+====== Algorithm Status ======
+Valor:                3820
+Time:                 1001
+nIter:                1148
+Best Iter:            1148
+Improvement Count:    1149
+==============================
+Solution tour: 
+0 7 0 
+5 
+16 
+14 41 8 41 35 37 
+24 30 
+13 24 
+10 
+1 40 27 44 39 36 39 
+12 
+23 
+3 34 49 29 42 29 22 42 22 
+11 
+18 38 
+22 
+19 
+9 
+21 
+15 48 
+6 47 
+==============================
+

@@ -1,0 +1,105 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-15-10-1110588.cdop
+Total node count:         26
+Truck node count:         15
+Drone node count:         10
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic_MPX_1881515.config
+Seed:                 1881515
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MPX
+Local Search:         LS
+==============================
+
+====== Algorithm Status ======
+Valor:                3519
+Time:                 252
+nIter:                91
+Best Iter:            91
+Improvement Count:    90
+==============================
+Solution tour: 
+0 
+6 24 25 24 14 5 
+12 5 
+14 
+7 21 
+3 21 13 25 20 25 21 6 0 
+4 18 19 16 19 2 22 24 
+13 24 22 15 
+11 
+15 22 7 17 
+9 3 0 13 
+10 13 
+==============================
+
+====== Algorithm Status ======
+Valor:                3519
+Time:                 500
+nIter:                193
+Best Iter:            193
+Improvement Count:    192
+==============================
+Solution tour: 
+0 
+6 24 25 24 14 5 
+12 5 
+14 
+7 21 
+3 21 13 25 20 25 21 6 0 
+4 18 19 16 19 2 22 24 
+13 24 22 15 
+11 
+15 22 7 17 
+9 3 0 13 
+10 13 
+==============================
+
+====== Algorithm Status ======
+Valor:                3519
+Time:                 1002
+nIter:                397
+Best Iter:            397
+Improvement Count:    398
+==============================
+Solution tour: 
+0 
+6 24 25 24 14 5 
+12 5 
+14 
+7 21 
+3 21 13 25 20 25 21 6 0 
+4 18 19 16 19 2 22 24 
+13 24 22 15 
+11 
+15 22 7 17 
+9 3 0 13 
+10 13 
+==============================
+
+====== Algorithm Status ======
+Valor:                3519
+Time:                 1002
+nIter:                397
+Best Iter:            397
+Improvement Count:    398
+==============================
+Solution tour: 
+0 
+6 24 25 24 14 5 
+12 5 
+14 
+7 21 
+3 21 13 25 20 25 21 6 0 
+4 18 19 16 19 2 22 24 
+13 24 22 15 
+11 
+15 22 7 17 
+9 3 0 13 
+10 13 
+==============================
+

@@ -1,0 +1,133 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-20-25-1762875.cdop
+Total node count:         46
+Truck node count:         20
+Drone node count:         25
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic-LS_MMX_1287823.config
+Seed:                 1287823
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MMX
+Local Search:         -
+==============================
+
+====== Algorithm Status ======
+Valor:                0
+Time:                 250
+nIter:                140
+Best Iter:            140
+Improvement Count:    139
+==============================
+Solution tour: 
+0 33 
+10 
+1 28 43 
+16 
+5 35 34 32 
+14 41 23 
+8 21 42 
+9 40 38 
+20 37 
+15 44 31 
+19 27 26 24 
+7 39 
+2 45 
+6 
+12 36 30 
+3 
+11 22 
+13 
+18 
+4 
+17 25 29 
+==============================
+
+====== Algorithm Status ======
+Valor:                2.122e-314
+Time:                 501
+nIter:                273
+Best Iter:            273
+Improvement Count:    272
+==============================
+Solution tour: 
+0 
+2 
+5 41 27 32 42 45 
+6 35 
+18 
+7 
+10 28 
+17 
+16 33 
+12 
+11 
+1 25 44 
+3 24 34 
+9 
+15 30 
+14 43 
+19 21 31 
+13 36 38 
+20 23 26 
+8 37 29 39 22 40 
+4 
+==============================
+
+====== Algorithm Status ======
+Valor:                400
+Time:                 1002
+nIter:                551
+Best Iter:            551
+Improvement Count:    552
+==============================
+Solution tour: 
+0 
+2 
+19 
+10 
+1 
+13 
+15 
+3 
+8 
+20 
+17 
+12 
+14 
+9 
+5 
+6 32 
+7 
+==============================
+
+====== Algorithm Status ======
+Valor:                400
+Time:                 1002
+nIter:                551
+Best Iter:            551
+Improvement Count:    552
+==============================
+Solution tour: 
+0 
+2 
+19 
+10 
+1 
+13 
+15 
+3 
+8 
+20 
+17 
+12 
+14 
+9 
+5 
+6 32 
+7 
+==============================
+

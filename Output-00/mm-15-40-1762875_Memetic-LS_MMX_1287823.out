@@ -1,0 +1,119 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-15-40-1762875.cdop
+Total node count:         56
+Truck node count:         15
+Drone node count:         40
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic-LS_MMX_1287823.config
+Seed:                 1287823
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MMX
+Local Search:         -
+==============================
+
+====== Algorithm Status ======
+Valor:                3224
+Time:                 253
+nIter:                61
+Best Iter:            61
+Improvement Count:    60
+==============================
+Solution tour: 
+0 36 33 
+1 51 55 21 
+3 17 16 29 37 
+14 45 
+11 42 
+6 43 30 27 54 41 
+9 48 39 28 
+4 49 35 24 
+5 34 32 53 
+2 47 23 25 52 50 18 20 46 
+13 44 26 22 
+12 
+10 
+7 40 38 31 19 
+15 
+8 
+==============================
+
+====== Algorithm Status ======
+Valor:                3224
+Time:                 500
+nIter:                124
+Best Iter:            124
+Improvement Count:    123
+==============================
+Solution tour: 
+0 36 33 
+1 51 55 21 
+3 17 16 29 37 
+14 45 
+11 42 
+6 43 30 27 54 41 
+9 48 39 28 
+4 49 35 24 
+5 34 32 53 
+2 47 23 25 52 50 18 20 46 
+13 44 26 22 
+12 
+10 
+7 40 38 31 19 
+15 
+8 
+==============================
+
+====== Algorithm Status ======
+Valor:                754
+Time:                 1002
+nIter:                251
+Best Iter:            251
+Improvement Count:    252
+==============================
+Solution tour: 
+0 
+1 
+13 
+8 
+6 
+2 
+7 
+5 
+10 
+12 
+9 
+14 
+11 
+3 
+4 35 
+==============================
+
+====== Algorithm Status ======
+Valor:                754
+Time:                 1002
+nIter:                251
+Best Iter:            251
+Improvement Count:    252
+==============================
+Solution tour: 
+0 
+1 
+13 
+8 
+6 
+2 
+7 
+5 
+10 
+12 
+9 
+14 
+11 
+3 
+4 35 
+==============================
+

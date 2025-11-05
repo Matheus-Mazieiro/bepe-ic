@@ -1,0 +1,95 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-10-10-1767920.cdop
+Total node count:         21
+Truck node count:         10
+Drone node count:         10
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic_MPX_1099666.config
+Seed:                 1099666
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MPX
+Local Search:         LS
+==============================
+
+====== Algorithm Status ======
+Valor:                3574
+Time:                 251
+nIter:                97
+Best Iter:            97
+Improvement Count:    96
+==============================
+Solution tour: 
+0 8 15 8 11 
+6 3 13 12 
+5 2 13 18 20 18 13 3 
+10 3 14 
+9 14 
+1 14 13 19 
+4 20 19 20 17 16 
+2 16 7 11 7 
+8 
+7 16 4 7 4 19 8 
+==============================
+
+====== Algorithm Status ======
+Valor:                3574
+Time:                 500
+nIter:                194
+Best Iter:            194
+Improvement Count:    193
+==============================
+Solution tour: 
+0 8 15 8 11 
+6 3 13 12 
+5 2 13 18 20 18 13 3 
+10 3 14 
+9 14 
+1 14 13 19 
+4 20 19 20 17 16 
+2 16 7 11 7 
+8 
+7 16 4 7 4 19 8 
+==============================
+
+====== Algorithm Status ======
+Valor:                3618
+Time:                 1001
+nIter:                370
+Best Iter:            370
+Improvement Count:    371
+==============================
+Solution tour: 
+0 8 15 8 19 11 
+8 
+7 11 7 16 2 
+5 2 16 19 13 18 20 18 13 3 
+10 3 14 
+9 14 1 
+6 3 13 1 13 12 17 20 11 
+1 14 13 19 
+4 20 19 20 17 16 4 16 7 8 
+==============================
+
+====== Algorithm Status ======
+Valor:                3618
+Time:                 1001
+nIter:                370
+Best Iter:            370
+Improvement Count:    371
+==============================
+Solution tour: 
+0 8 15 8 19 11 
+8 
+7 11 7 16 2 
+5 2 16 19 13 18 20 18 13 3 
+10 3 14 
+9 14 1 
+6 3 13 1 13 12 17 20 11 
+1 14 13 19 
+4 20 19 20 17 16 4 16 7 8 
+==============================
+

@@ -1,0 +1,134 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-25-10-1917698.cdop
+Total node count:         36
+Truck node count:         25
+Drone node count:         10
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic-LS_MMX_1881515.config
+Seed:                 1881515
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MMX
+Local Search:         -
+==============================
+
+====== Algorithm Status ======
+Valor:                2965
+Time:                 250
+nIter:                507
+Best Iter:            507
+Improvement Count:    506
+==============================
+Solution tour: 
+0 29 0 
+20 0 2 18 32 34 35 
+4 
+19 
+17 35 
+10 
+13 
+1 
+22 23 
+16 33 16 
+6 34 9 31 
+14 
+3 14 
+15 
+9 
+12 9 32 9 32 
+24 
+5 
+18 
+2 0 26 2 
+8 30 8 
+11 
+7 2 26 
+==============================
+
+====== Algorithm Status ======
+Valor:                3004
+Time:                 500
+nIter:                1011
+Best Iter:            1011
+Improvement Count:    1010
+==============================
+Solution tour: 
+0 29 0 
+20 0 2 18 32 34 35 
+4 
+19 
+17 35 
+10 
+13 
+1 
+22 23 
+16 33 16 
+6 34 9 31 
+14 
+3 14 32 9 32 
+24 
+5 
+18 
+2 0 26 2 
+8 30 8 
+11 
+7 2 26 
+==============================
+
+====== Algorithm Status ======
+Valor:                3051
+Time:                 1001
+nIter:                2092
+Best Iter:            2092
+Improvement Count:    2093
+==============================
+Solution tour: 
+0 29 0 
+20 0 2 18 34 18 32 34 
+4 
+19 
+17 35 
+10 
+13 
+1 
+22 23 
+16 33 16 34 9 31 
+14 
+3 14 32 9 32 
+24 
+5 
+18 
+2 26 0 
+8 30 28 
+==============================
+
+====== Algorithm Status ======
+Valor:                3051
+Time:                 1001
+nIter:                2092
+Best Iter:            2092
+Improvement Count:    2093
+==============================
+Solution tour: 
+0 29 0 
+20 0 2 18 34 18 32 34 
+4 
+19 
+17 35 
+10 
+13 
+1 
+22 23 
+16 33 16 34 9 31 
+14 
+3 14 32 9 32 
+24 
+5 
+18 
+2 26 0 
+8 30 28 
+==============================
+

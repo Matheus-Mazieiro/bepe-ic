@@ -1,0 +1,125 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-20-25-1767920.cdop
+Total node count:         46
+Truck node count:         20
+Drone node count:         25
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic-LS_MMX_1099666.config
+Seed:                 1099666
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MMX
+Local Search:         -
+==============================
+
+====== Algorithm Status ======
+Valor:                4237
+Time:                 250
+nIter:                320
+Best Iter:            320
+Improvement Count:    319
+==============================
+Solution tour: 
+0 40 42 20 23 20 
+13 36 
+3 44 29 44 45 44 3 30 9 10 
+15 
+10 
+9 16 25 
+16 
+6 
+12 
+8 28 34 28 8 12 16 
+2 
+5 31 45 
+18 
+7 22 26 35 24 21 24 21 1 
+11 39 
+14 0 
+17 
+==============================
+
+====== Algorithm Status ======
+Valor:                4237
+Time:                 500
+nIter:                623
+Best Iter:            623
+Improvement Count:    622
+==============================
+Solution tour: 
+0 40 42 20 23 20 
+13 36 
+3 44 29 44 45 44 3 30 9 10 
+15 
+10 
+9 16 25 
+16 
+6 
+12 
+8 28 34 28 8 12 16 
+2 
+5 31 45 
+18 
+7 22 26 35 24 21 24 21 1 
+11 39 
+14 0 
+17 
+==============================
+
+====== Algorithm Status ======
+Valor:                4237
+Time:                 1001
+nIter:                1232
+Best Iter:            1232
+Improvement Count:    1233
+==============================
+Solution tour: 
+0 40 42 20 23 20 
+13 36 
+3 44 29 44 45 44 3 30 9 10 
+15 
+10 
+9 16 25 
+16 
+6 
+12 
+8 28 34 28 8 12 16 
+2 
+5 31 45 
+18 
+7 22 26 35 24 21 24 21 1 
+11 39 
+14 0 
+17 
+==============================
+
+====== Algorithm Status ======
+Valor:                4237
+Time:                 1001
+nIter:                1232
+Best Iter:            1232
+Improvement Count:    1233
+==============================
+Solution tour: 
+0 40 42 20 23 20 
+13 36 
+3 44 29 44 45 44 3 30 9 10 
+15 
+10 
+9 16 25 
+16 
+6 
+12 
+8 28 34 28 8 12 16 
+2 
+5 31 45 
+18 
+7 22 26 35 24 21 24 21 1 
+11 39 
+14 0 
+17 
+==============================
+

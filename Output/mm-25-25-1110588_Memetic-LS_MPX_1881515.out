@@ -1,0 +1,157 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-25-25-1110588.cdop
+Total node count:         51
+Truck node count:         25
+Drone node count:         25
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic-LS_MPX_1881515.config
+Seed:                 1881515
+Reduction method:     -
+Max iter:             1000
+Population size:      13
+Crossover:            MA-MPX
+Local Search:         -
+==============================
+
+====== Algorithm Status ======
+Valor:                2709
+Time:                 250
+nIter:                287
+Best Iter:            287
+Improvement Count:    286
+==============================
+Solution tour: 
+0 43 37 
+24 
+23 
+13 40 
+22 
+2 33 
+6 
+16 
+19 
+18 47 
+12 
+1 38 
+8 42 48 31 
+9 
+4 
+20 
+17 30 
+7 
+10 
+11 
+15 
+21 
+5 
+14 29 
+3 
+==============================
+
+====== Algorithm Status ======
+Valor:                2709
+Time:                 500
+nIter:                566
+Best Iter:            566
+Improvement Count:    565
+==============================
+Solution tour: 
+0 43 37 
+24 
+23 
+13 40 
+22 
+2 33 
+6 
+16 
+19 
+18 47 
+12 
+1 38 
+8 42 48 31 
+9 
+4 
+20 
+17 30 
+7 
+10 
+11 
+15 
+21 
+5 
+14 29 
+3 
+==============================
+
+====== Algorithm Status ======
+Valor:                2709
+Time:                 1001
+nIter:                1132
+Best Iter:            1132
+Improvement Count:    1133
+==============================
+Solution tour: 
+0 43 37 
+24 
+23 
+13 40 
+22 
+2 33 
+6 
+16 
+19 
+18 47 
+12 
+1 38 
+8 42 48 31 
+9 
+4 
+20 
+17 30 
+7 
+10 
+11 
+15 
+21 
+5 
+14 29 
+3 
+==============================
+
+====== Algorithm Status ======
+Valor:                2709
+Time:                 1001
+nIter:                1132
+Best Iter:            1132
+Improvement Count:    1133
+==============================
+Solution tour: 
+0 43 37 
+24 
+23 
+13 40 
+22 
+2 33 
+6 
+16 
+19 
+18 47 
+12 
+1 38 
+8 42 48 31 
+9 
+4 
+20 
+17 30 
+7 
+10 
+11 
+15 
+21 
+5 
+14 29 
+3 
+==============================
+
