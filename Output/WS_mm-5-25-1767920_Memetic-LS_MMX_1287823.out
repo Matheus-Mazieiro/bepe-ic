@@ -1,0 +1,43 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-5-25-1767920.cdop
+Total node count:         31
+Truck node count:         5
+Drone node count:         25
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic-LS_MMX_1287823.config
+Seed:                 1287823
+Reduction method:     -
+Max iter:             100
+Population size:      13
+Crossover:            MA-MMX
+Local Search:         -
+==============================
+
+====== Random Pocket ======
+Valor Pocket:         1819
+0 
+5 28 27 29 26 7 8 15 
+2 18 
+1 19 12 
+4 10 11 
+3 17 
+====== Random Current =====
+Valor Current:        1101
+0 24 
+4 25 27 26 14 11 13 29 
+5 
+1 8 22 
+3 
+2 17 
+====== Warm Start ======
+Valor:                4394.71
+Time(µs):             910
+0 
+5 28 27 29 26 7 8 15 
+2 18 
+1 19 12 
+4 10 11 
+3 17 
+==============================

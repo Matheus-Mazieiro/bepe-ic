@@ -3,7 +3,8 @@ CC = g++
 CFLAGS = -O3 -fno-omit-frame-pointer -MMD -g 
 TARGET = bepe
 
-SRCS = memetic/WarmStart.cpp  main.cpp Input.cpp memetic/Crossover.cpp memetic/Individual.cpp memetic/Memetic.cpp memetic/Population.cpp Printer.cpp ReducedInstanceSolver_gurobi.cpp Settings.cpp TourEnhancement.cpp TourEnhancement2.cpp tsp_gurobi.cpp
+#SRCS = memetic/WarmStart.cpp  main.cpp Input.cpp memetic/Crossover.cpp memetic/Individual.cpp memetic/Memetic.cpp memetic/Population.cpp Printer.cpp ReducedInstanceSolver_gurobi.cpp Settings.cpp TourEnhancement.cpp TourEnhancement2.cpp tsp_gurobi.cpp
+SRCS = memetic/WarmStart.cpp  memetic/Individual.cpp ws-main.cpp Input.cpp Printer.cpp Settings.cpp TourEnhancement.cpp TourEnhancement2.cpp
 OBJS = $(SRCS:.cpp=.o)
 DEPS = $(SRCS:.cpp=.d)
 ORTOOLS_BINARY_PATH = /home/matheus-ubunto/constraint_programming/or-tools_x86_64_Ubuntu-22.04_cpp_v9.10.4067
@@ -23,12 +24,12 @@ ORTOOLS_LIB_FLAGS = \
 	-lCbc \
 	-lscip \
 
-#export GUROBI_HOME=/home/aloc/matheus/gurobi1202/linux64
+export GUROBI_HOME=/home/matheus-ubunto/constraint_programming/gurobi1202/linux64
 PATH := $(GUROBI_HOME)/bin:$(PATH)
-#export PATH
+export PATH
 LD_LIBRARY_PATH := $(GUROBI_HOME)/lib:$(LD_LIBRARY_PATH)
-#export LD_LIBRARY_PATH
-#export GRB_LICENSE_FILE=/home/aloc/matheus/gurobi.lic
+export LD_LIBRARY_PATH
+export GRB_LICENSE_FILE=/home/matheus-ubunto/constraint_programming/gurobi.lic
 
 # Regras para gerar o executável
 all: $(TARGET)

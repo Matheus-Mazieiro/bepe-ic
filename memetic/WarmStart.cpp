@@ -95,11 +95,11 @@ bool WarmStart::InsertDrone(std::vector<std::pair<int, bool>> &solution)
         return false;
     }
 
-    std::cout << "Adding " << best_node << " improving sol by " << best_gain << std::endl;
-    std::cout << "best_last_op_drone_time = " << best_last_op_drone_time << " | best_solution_time = " << best_solution_time << " | old_solution_time = " << solution_time << std::endl;
-    std::cout << "Truck time: " << input.truck_graph[last_truck][solution[0].first]
-              << " | Old drone time: " << last_op_drone_time
-              << " | New drone time: " << best_last_op_drone_time << std::endl;
+    //std::cout << "Adding " << best_node << " improving sol by " << best_gain << std::endl;
+    //std::cout << "best_last_op_drone_time = " << best_last_op_drone_time << " | best_solution_time = " << best_solution_time << " | old_solution_time = " << solution_time << std::endl;
+    //std::cout << "Truck time: " << input.truck_graph[last_truck][solution[0].first]
+    //          << " | Old drone time: " << last_op_drone_time
+    //          << " | New drone time: " << best_last_op_drone_time << std::endl;
 
     drone_visiting_edges[solution.back().first][best_node]++;
     drone_visiting_edges[best_node][solution[0].first]++;
@@ -112,7 +112,7 @@ bool WarmStart::InsertDrone(std::vector<std::pair<int, bool>> &solution)
 /// @return return True if a drone node can be added without violate any constraint
 bool WarmStart::InsertTruck(std::vector<std::pair<int, bool>> &solution)
 {
-    std::cout << "Inserting truck" << std::endl;
+    //std::cout << "Inserting truck" << std::endl;
     std::vector<int> truck_tour;
     std::vector<bool> in_tour(input.num_truck_nodes, false);
     double truck_time = 0;
@@ -155,7 +155,7 @@ bool WarmStart::InsertTruck(std::vector<std::pair<int, bool>> &solution)
         }
         else
         {
-            std::cout << "Inserting " << best_vert << " at " << best_pos + 1 << std::endl;
+            //std::cout << "Inserting " << best_vert << " at " << best_pos + 1 << std::endl;
             truck_tour.insert(truck_tour.begin() + best_pos + 1, best_vert);
             in_tour[best_vert] = true;
         }
@@ -163,12 +163,12 @@ bool WarmStart::InsertTruck(std::vector<std::pair<int, bool>> &solution)
 
     for (auto t : truck_tour)
     {
-        std::cout << t << " ";
+        //std::cout << t << " ";
         if (t == 0)
             continue;
         solution.push_back(std::make_pair(t, true));
     }
-    std::cout << std::endl;
+    //std::cout << std::endl;
 
     return false;
 }
