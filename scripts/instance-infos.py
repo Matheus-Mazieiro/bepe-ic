@@ -19,13 +19,13 @@ def mochila_fracionaria(g_drone, g_profit, t):
     total_custo = 0.0
 
     for densidade, custo, valor in profitable_edges:
-        if total_custo + custo <= int(t):
+        if total_custo + custo <= float(t):
             # Cabe inteiro
             total_custo += custo
             total_valor += valor
         else:
             # Cabe apenas fração
-            restante = int(t) - total_custo
+            restante = float(t) - total_custo
             if restante > 0:
                 frac = restante / custo
                 total_valor += valor * frac
@@ -96,8 +96,9 @@ if __name__ == "__main__":
             print(f'Profit das arestas: {total_edges_profit}')
             print(f'Profit dos vértices: {total_nodes_profit}')
             print(f'Custo de passar por todas as arestas com profit: {total_profit_edges_cost}')
-            profit_frac = mochila_fracionaria(instance['d_graph'], instance['profit_graph'], instance['t'])
+            profit_frac = mochila_fracionaria(instance['d_graph'], instance['profit_graph'], instance['d'])
             print(f'Profit Mochila fracionária: {profit_frac}')
             f.write(f'{instance["name"]}, {instance["m"]}, {instance["n"]}, {instance["t"]}, {instance["d"]}, {total_edges_profit}, {total_nodes_profit}, {total_profit_edges_cost}, {profit_frac}\n')
-            
+
 #./instances/created-instances
+#./instances/realistic_instances

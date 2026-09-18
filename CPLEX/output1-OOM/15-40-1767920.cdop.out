@@ -1,0 +1,42 @@
+=========== Input ===========
+File name:                ../instances/realistic-instances/15-40-1767920.cdop
+Total node count:         56
+Truck node count:         15
+Drone node count:         40
+=============================
+
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Threads                                 6
+CPXPARAM_TimeLimit                               1024
+Legacy callback                                  LD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 32 rows and 16 columns.
+MIP Presolve modified 1051012 coefficients.
+Reduced MIP has 18507 rows, 806503 columns, and 4525828 nonzeros.
+Reduced MIP has 806232 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 2.57 sec. (3232.80 ticks)
+Probing time = 0.35 sec. (214.37 ticks)
+Cover probing fixed 0 vars, tightened 782 bounds.
+Clique table members: 137.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 48.15 sec. (37808.40 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0     3432.4858   122                   3432.4858      259         
+      0     0     3413.9233   100                    Cuts: 31      811         
+      0     0     3411.6609    96                    Cuts: 37     1285         
+      0     0     3411.6609   122                    Cuts: 12     1303         
+      0     0     3411.1731   119                     Cuts: 5     1437         
+      0     0     3411.1691   162                     Cuts: 4     1456         
+Heuristic still looking.
+Heuristic still looking.
+      0     2     3411.1691   162                   3411.1691     1456                                 0             0
+Elapsed time = 157.27 sec. (176599.62 ticks, tree = 0.02 MB, solutions = 0)

@@ -1,0 +1,283 @@
+⏭️ Já processado (pulando): 10-10-1110588.cdop
+⏭️ Já processado (pulando): 10-10-1762875.cdop
+⏭️ Já processado (pulando): 10-10-1767920.cdop
+⏭️ Já processado (pulando): 10-10-1891798.cdop
+⏭️ Já processado (pulando): 10-10-1917698.cdop
+⏭️ Já processado (pulando): 10-25-1110588.cdop
+⏭️ Já processado (pulando): 10-25-1762875.cdop
+⏭️ Já processado (pulando): 10-25-1767920.cdop
+⏭️ Já processado (pulando): 10-25-1891798.cdop
+⏭️ Já processado (pulando): 10-25-1917698.cdop
+⏭️ Já processado (pulando): 10-40-1110588.cdop
+⏭️ Já processado (pulando): 10-40-1762875.cdop
+⏭️ Já processado (pulando): 10-40-1767920.cdop
+⏭️ Já processado (pulando): 10-40-1891798.cdop
+⏭️ Já processado (pulando): 10-40-1917698.cdop
+⏭️ Já processado (pulando): 15-10-1110588.cdop
+⏭️ Já processado (pulando): 15-10-1762875.cdop
+⏭️ Já processado (pulando): 15-10-1767920.cdop
+⏭️ Já processado (pulando): 15-10-1891798.cdop
+⏭️ Já processado (pulando): 15-10-1917698.cdop
+⏭️ Já processado (pulando): 15-25-1110588.cdop
+⏭️ Já processado (pulando): 15-25-1762875.cdop
+⏭️ Já processado (pulando): 15-25-1767920.cdop
+⏭️ Já processado (pulando): 15-25-1891798.cdop
+⏭️ Já processado (pulando): 15-25-1917698.cdop
+========================================
+Processando: 15-40-1110588.cdop
+========================================
+❌ Falha na instância: 15-40-1110588.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 15-40-1762875.cdop
+========================================
+❌ Falha na instância: 15-40-1762875.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 15-40-1767920.cdop
+========================================
+❌ Falha na instância: 15-40-1767920.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 15-40-1891798.cdop
+========================================
+❌ Falha na instância: 15-40-1891798.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 15-40-1917698.cdop
+========================================
+✅ Finalizado: 15-40-1917698.cdop
+========================================
+Processando: 20-10-1110588.cdop
+========================================
+✅ Finalizado: 20-10-1110588.cdop
+========================================
+Processando: 20-10-1762875.cdop
+========================================
+❌ Falha na instância: 20-10-1762875.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 20-10-1767920.cdop
+========================================
+✅ Finalizado: 20-10-1767920.cdop
+========================================
+Processando: 20-10-1891798.cdop
+========================================
+✅ Finalizado: 20-10-1891798.cdop
+========================================
+Processando: 20-10-1917698.cdop
+========================================
+✅ Finalizado: 20-10-1917698.cdop
+========================================
+Processando: 20-25-1110588.cdop
+========================================
+❌ Falha na instância: 20-25-1110588.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 20-25-1762875.cdop
+========================================
+❌ Falha na instância: 20-25-1762875.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 20-25-1767920.cdop
+========================================
+❌ Falha na instância: 20-25-1767920.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 20-25-1891798.cdop
+========================================
+❌ Falha na instância: 20-25-1891798.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 20-25-1917698.cdop
+========================================
+❌ Falha na instância: 20-25-1917698.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 25-10-1110588.cdop
+========================================
+❌ Falha na instância: 25-10-1110588.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 25-10-1762875.cdop
+========================================
+❌ Falha na instância: 25-10-1762875.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 25-10-1767920.cdop
+========================================
+❌ Falha na instância: 25-10-1767920.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 25-10-1891798.cdop
+========================================
+❌ Falha na instância: 25-10-1891798.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 25-10-1917698.cdop
+========================================
+❌ Falha na instância: 25-10-1917698.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 25-25-1110588.cdop
+========================================
+❌ Falha na instância: 25-25-1110588.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 25-25-1762875.cdop
+========================================
+❌ Falha na instância: 25-25-1762875.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 25-25-1767920.cdop
+========================================
+❌ Falha na instância: 25-25-1767920.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 25-25-1891798.cdop
+========================================
+❌ Falha na instância: 25-25-1891798.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 25-25-1917698.cdop
+========================================
+❌ Falha na instância: 25-25-1917698.cdop
+Código de saída: 137
+⚠️ Possível OOM detectado!
+========================================
+Processando: 5-10-1110588.cdop
+========================================
+✅ Finalizado: 5-10-1110588.cdop
+========================================
+Processando: 5-10-1762875.cdop
+========================================
+✅ Finalizado: 5-10-1762875.cdop
+========================================
+Processando: 5-10-1767920.cdop
+========================================
+✅ Finalizado: 5-10-1767920.cdop
+========================================
+Processando: 5-10-1891798.cdop
+========================================
+✅ Finalizado: 5-10-1891798.cdop
+========================================
+Processando: 5-10-1917698.cdop
+========================================
+✅ Finalizado: 5-10-1917698.cdop
+========================================
+Processando: 5-25-1110588.cdop
+========================================
+✅ Finalizado: 5-25-1110588.cdop
+========================================
+Processando: 5-25-1762875.cdop
+========================================
+✅ Finalizado: 5-25-1762875.cdop
+========================================
+Processando: 5-25-1767920.cdop
+========================================
+✅ Finalizado: 5-25-1767920.cdop
+========================================
+Processando: 5-25-1891798.cdop
+========================================
+✅ Finalizado: 5-25-1891798.cdop
+========================================
+Processando: 5-25-1917698.cdop
+========================================
+✅ Finalizado: 5-25-1917698.cdop
+========================================
+Processando: 5-40-1110588.cdop
+========================================
+✅ Finalizado: 5-40-1110588.cdop
+========================================
+Processando: 5-40-1762875.cdop
+========================================
+✅ Finalizado: 5-40-1762875.cdop
+========================================
+Processando: 5-40-1767920.cdop
+========================================
+✅ Finalizado: 5-40-1767920.cdop
+========================================
+Processando: 5-40-1891798.cdop
+========================================
+✅ Finalizado: 5-40-1891798.cdop
+========================================
+Processando: 5-40-1917698.cdop
+========================================
+✅ Finalizado: 5-40-1917698.cdop
+
+========================================
+RESUMO FINAL
+========================================
+
+❌ Instâncias com erro (20):
+  - 15-40-1110588.cdop (exit code 137)
+  - 15-40-1762875.cdop (exit code 137)
+  - 15-40-1767920.cdop (exit code 137)
+  - 15-40-1891798.cdop (exit code 137)
+  - 20-10-1762875.cdop (exit code 137)
+  - 20-25-1110588.cdop (exit code 137)
+  - 20-25-1762875.cdop (exit code 137)
+  - 20-25-1767920.cdop (exit code 137)
+  - 20-25-1891798.cdop (exit code 137)
+  - 20-25-1917698.cdop (exit code 137)
+  - 25-10-1110588.cdop (exit code 137)
+  - 25-10-1762875.cdop (exit code 137)
+  - 25-10-1767920.cdop (exit code 137)
+  - 25-10-1891798.cdop (exit code 137)
+  - 25-10-1917698.cdop (exit code 137)
+  - 25-25-1110588.cdop (exit code 137)
+  - 25-25-1762875.cdop (exit code 137)
+  - 25-25-1767920.cdop (exit code 137)
+  - 25-25-1891798.cdop (exit code 137)
+  - 25-25-1917698.cdop (exit code 137)
+
+Lista completa salva em:
+output/erros.txt
+
+========================================
+⚠️ POSSÍVEIS OOM (20)
+========================================
+  - 15-40-1110588.cdop
+  - 15-40-1762875.cdop
+  - 15-40-1767920.cdop
+  - 15-40-1891798.cdop
+  - 20-10-1762875.cdop
+  - 20-25-1110588.cdop
+  - 20-25-1762875.cdop
+  - 20-25-1767920.cdop
+  - 20-25-1891798.cdop
+  - 20-25-1917698.cdop
+  - 25-10-1110588.cdop
+  - 25-10-1762875.cdop
+  - 25-10-1767920.cdop
+  - 25-10-1891798.cdop
+  - 25-10-1917698.cdop
+  - 25-25-1110588.cdop
+  - 25-25-1762875.cdop
+  - 25-25-1767920.cdop
+  - 25-25-1891798.cdop
+  - 25-25-1917698.cdop
+
+Lista salva em:
+output/ooms.txt
+
+Processamento completo.

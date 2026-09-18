@@ -1,0 +1,44 @@
+=========== Input ===========
+File name:                ../instances/realistic-instances/25-10-1110588.cdop
+Total node count:         36
+Truck node count:         25
+Drone node count:         10
+=============================
+
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Threads                                 6
+CPXPARAM_TimeLimit                               1024
+Legacy callback                                  LD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 52 rows and 26 columns.
+MIP Presolve modified 1164052 coefficients.
+Reduced MIP has 28297 rows, 878753 columns, and 4518223 nonzeros.
+Reduced MIP has 878052 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 2.79 sec. (3307.49 ticks)
+Probing time = 0.62 sec. (284.09 ticks)
+Clique table members: 352.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 69.61 sec. (49107.50 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0     2091.0794   141                   2091.0794      277         
+      0     0     2048.3108   164                    Cuts: 87     1331         
+      0     0     2042.9075   179                    Cuts: 68     2714         
+      0     0     2042.1528   208                    Cuts: 56     3173         
+      0     0     2041.5456   206                    Cuts: 33     3546         
+      0     0     2041.5151   219                    Cuts: 33     3699         
+      0     0     2040.7545   202                     Cuts: 9     4018         
+      0     0     2039.8630   207                    Cuts: 48     4134         
+      0     0     2038.4872   190                    Cuts: 26     4413         
+      0     0     2038.3193   191                    Cuts: 26     4567         
+Heuristic still looking.
+Heuristic still looking.
+Heuristic still looking.

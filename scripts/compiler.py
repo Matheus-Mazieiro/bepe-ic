@@ -17,8 +17,9 @@ def read_data(sol_file):
 
     instance = sol_file.split('/')[1].split(f'_{solving_tipe}')[0]
     settings = solving_tipe + sol_file.split(f'_{solving_tipe}')[1].split('.')[0]
-    m = instance.split('-')[1]
-    n = instance.split('-')[2]   
+    instance = instance[3:]
+    m = instance.split('-')[0]
+    n = instance.split('-')[1]   
     value = -1         
 
     with open(sol_file, 'r') as f:
@@ -121,6 +122,17 @@ def agrupar_por_prefixos(objetos):
 
     return resultados
 
+#def gerar_csv_completo(csv_file, objetos):
+#    if not objetos:
+#        return
+#
+#    with open(csv_file, 'w', newline='') as f:
+#        writer = csv.DictWriter(f, fieldnames=objetos[0].keys())
+#        writer.writeheader()
+#        for obj in objetos:
+#            writer.writerow(obj)
+
+
 if __name__ == "__main__":
     input_path = input(f'pasta de arquivos: ')
     files = os.listdir(input_path)
@@ -129,8 +141,9 @@ if __name__ == "__main__":
         print(f'{input_path}/{file}')
         objs.append(read_data(f'{input_path}/{file}'))
 
-#    for obj in objs:
-#        add_to_csv(f'csv-ma.csv', obj)
+    for obj in objs:
+        add_to_csv(f'csv-ma.csv', obj)
+
 
     media = agrupar_por_instancia_e_prefixo(objs)
     for m in media:

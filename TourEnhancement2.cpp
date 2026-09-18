@@ -58,7 +58,7 @@ std::vector<std::pair<int, bool>> TourEnhancement::Enhance(Input &input, std::ve
             truck_total += best_delta_time;
             if (DEBUG)
                 std::cout << "Removing " << truck_tour.at(best_to_remove) << std::endl;
-            auto it = std::find_if(tour.begin(), tour.end(),
+            auto it = std::find_if(tour.begin() + 1, tour.end(),
                                    [&](const std::pair<int, bool> &p)
                                    {
                                        return p.first == truck_tour.at(best_to_remove) && p.second == true;
@@ -143,6 +143,8 @@ std::vector<std::pair<int, bool>> TourEnhancement::Enhance(Input &input, std::ve
                 {
                     prev_node = (k - 1) % tour.size();
                     node_to_remove = (k) % tour.size();
+                    if (tour.at(node_to_remove).second)
+                        continue;
                     next_node = (k + 1) % tour.size();
                     if (tour.at(next_node).first == tour.at(prev_node).first)
                         continue;
@@ -200,6 +202,12 @@ std::vector<std::pair<int, bool>> TourEnhancement::Enhance(Input &input, std::ve
                 // if (DEBUG)
                 //     std::cout << "Removed " << tour.at(best_removal).first << " Between " << tour.at(best_removal - 1).first << " and " << tour.at(best_removal + 1).first << std::endl;
                 tour.erase(tour.begin() + best_removal);
+
+                if (best_removal == 0) // AQUIIIIIIIIIIIIIIIIII
+                {
+                    std::cout << "TIRANDO depot (deu caquita) (ln. 206)" << std::endl;
+                    exit(0);
+                }
             }
         }
         if (DEBUG)
@@ -367,6 +375,11 @@ std::vector<std::pair<int, bool>> TourEnhancement::Enhance(Input &input, std::ve
             node_count.at(tour.at(best_removal).first)--;
 
             tour.erase(tour.begin() + best_removal);
+            if (best_removal == 0)
+            {
+                std::cout << "REMOVENDO depot (deu caquita) (ln. 378)";
+                exit(0);
+            }
 
             // Recalcula total_time
             total_time = 0;
@@ -401,6 +414,11 @@ std::vector<std::pair<int, bool>> TourEnhancement::Enhance(Input &input, std::ve
 
     // Add vertex
     {
+        if (tour[0].first != 0 && tour[0].second != true)
+        {
+            std::cout << "SOMETHING WENT WRONG, TOUR NOT STARTING WITH depot, forcing it" << std::endl;
+            tour.insert(tour.begin(), {0, true});
+        }
 
         std::vector<double> truck_times;
         double last_truck = 0;
@@ -449,6 +467,22 @@ std::vector<std::pair<int, bool>> TourEnhancement::Enhance(Input &input, std::ve
                     // sync_count = (sync_count + tour.at(next).second) % flight_duration.size();
                     size_t fd_sz = flight_duration.size(); // use size_t
                     size_t sync_count = 0;                 // use size_t, não int
+                    if (!fd_sz)
+                    {
+                        std::cout << "Tour: ";
+                        for (auto t : tour)
+                        {
+                            if (t.second)
+                                std::cout << "*";
+                            std::cout << t.first << " ";
+                        }
+                        std::cout << std::endl;
+
+                        std::cout << "flight_duration: {";
+                        for (auto fd : flight_duration)
+                            std::cout << fd << " ";
+                        std::cout << "}" << std::endl;
+                    }
                     sync_count = (sync_count + static_cast<size_t>(tour.at(next).second)) % fd_sz;
 
                     double delta_time = input.drone_graph.at(tour.at(cur).first).at(i);

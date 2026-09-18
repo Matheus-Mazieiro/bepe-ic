@@ -1,5 +1,7 @@
 import os
 
+VERBOSE = 0
+
 def get_input(input_file):
     # print(input_file)
     with open(input_file, 'r') as f:
@@ -47,9 +49,14 @@ def check_solution(sol_file):
     tour = []
     with open(sol_file, 'r') as f:
         linhas = f.readlines()
+    
+    if len(linhas) == 0:
+        print(f'Arquivo vazio: {sol_file}')
+        quit(0)
 
     tour_start = -1
     value = 0
+    time = 0
     for i, linha in enumerate(linhas):
         if 'Solution tour: ' in linha:
             tour_start = i + 1
@@ -57,6 +64,8 @@ def check_solution(sol_file):
             input_obj = get_input(linha.split(':')[1].strip())
         if 'Valor:' in linha:
             value = float(linha.split(':')[1].strip())
+        if 'Time:' in linha:
+            time = int(linha.split(':')[1].strip())
     m = input_obj['m']
     n = input_obj['n']
 
@@ -99,8 +108,10 @@ def check_solution(sol_file):
             objective_value += input_obj['drone_profits_nodes'][i]
 
     if value - objective_value >= 0.01:
-        print(f'Different value on tour ({sol_file})')
+        print(f'Different value on tour ({sol_file}) ({value} != {objective_value})')
         return 1
+    elif VERBOSE: 
+        print(f'Comparing objective vaule ({sol_file}) ({value} =?= {objective_value})')
 
     drone_flight_duration = 0
     total_time_operation = 0
@@ -113,6 +124,8 @@ def check_solution(sol_file):
             if drone_flight_duration > input_obj['t_max']:
                 print(f'Impossible drone flight ({sol_file} )')
                 return 1
+            elif VERBOSE: 
+                print(f'Comparing drone flight duration ({sol_file}) ({drone_flight_duration} =?= {input_obj["t_max"]})')
             total_time_operation += max(drone_flight_duration, input_obj['truck_graph'][last_sync_node][v[0]])
             # print(f'drone operations lengths {max(drone_flight_duration, input_obj["truck_graph"][last_sync_node][v[0]])}', end='')
             #if drone_flight_duration > input_obj["truck_graph"][last_sync_node][v[0]]:
@@ -125,6 +138,11 @@ def check_solution(sol_file):
     if total_time_operation > input_obj['D']:
         print(f"Violated max time operation {total_time_operation}/{input_obj['D']} ({sol_file} )")
         return 1
+    elif VERBOSE:
+        print(f"Comparing max time operation ({sol_file}) ({total_time_operation} =?= {input_obj['D']})")
+
+    if abs(time - 1024000) >= 1000:
+        print(f"{sol_file} runned for {time/1000}s, not for 1024s")
     return 0
 
 if __name__ == "__main__":

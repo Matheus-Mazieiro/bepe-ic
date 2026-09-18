@@ -19,6 +19,8 @@ public:
     std::mt19937 rng;
     std::string crossover;
     std::string local_search;
+    std::string warm_start;
+
 
     Settings(const std::string &filename);
     void PrintSettings(std::ostream &file_out) const;

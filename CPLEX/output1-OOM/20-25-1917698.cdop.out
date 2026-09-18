@@ -1,0 +1,39 @@
+=========== Input ===========
+File name:                ../instances/realistic-instances/20-25-1917698.cdop
+Total node count:         46
+Truck node count:         20
+Drone node count:         25
+=============================
+
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Threads                                 6
+CPXPARAM_TimeLimit                               1024
+Legacy callback                                  LD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 42 rows and 21 columns.
+MIP Presolve modified 1209042 coefficients.
+Reduced MIP has 24152 rows, 936178 columns, and 5083858 nonzeros.
+Reduced MIP has 935717 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 2.98 sec. (3408.51 ticks)
+Probing time = 0.47 sec. (286.02 ticks)
+Cover probing fixed 0 vars, tightened 2986 bounds.
+Clique table members: 232.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 83.05 sec. (65173.84 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0     2855.2055   150                   2855.2055      331         
+      0     0     2832.8992   120                    Cuts: 83     1858         
+      0     0     2832.8992   124                    Cuts: 61     1891         
+      0     0     2832.8992   119                     Cuts: 7     1900         
+      0     0     2832.8992   107                     Cuts: 6     1912         
+      0     0     2832.8992   109                     Cuts: 9     1923         
+Heuristic still looking.

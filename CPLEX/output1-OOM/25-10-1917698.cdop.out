@@ -1,0 +1,40 @@
+=========== Input ===========
+File name:                ../instances/realistic-instances/25-10-1917698.cdop
+Total node count:         36
+Truck node count:         25
+Drone node count:         10
+=============================
+
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Threads                                 6
+CPXPARAM_TimeLimit                               1024
+Legacy callback                                  LD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 52 rows and 26 columns.
+MIP Presolve modified 1092302 coefficients.
+Reduced MIP has 28297 rows, 878753 columns, and 4519154 nonzeros.
+Reduced MIP has 878052 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 2.36 sec. (2867.66 ticks)
+Probing time = 0.46 sec. (284.16 ticks)
+Clique table members: 352.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 62.30 sec. (44358.93 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0     2025.2967   156                   2025.2967      252         
+      0     0     1998.2387   148                    Cuts: 52      677         
+      0     0     1998.2387   163                    Cuts: 76      732         
+      0     0     1997.7609   159                    Cuts: 27      876         
+      0     0     1996.5550   199                    Cuts: 20     2020         
+      0     0     1994.8038   129                    Cuts: 26     2751         
+      0     0     1994.8038   142                    Cuts: 18     2793         
+Heuristic still looking.
+Heuristic still looking.

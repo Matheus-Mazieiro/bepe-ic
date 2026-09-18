@@ -1,0 +1,74 @@
+=========== Input ===========
+File name:                ../instances/realistic-instances/10-40-1891798.cdop
+Total node count:         51
+Truck node count:         10
+Drone node count:         40
+=============================
+
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Threads                                 6
+CPXPARAM_TimeLimit                               1024
+Legacy callback                                  LD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 22 rows and 11 columns.
+MIP Presolve modified 353642 coefficients.
+Reduced MIP has 9277 rows, 317603 columns, and 1795913 nonzeros.
+Reduced MIP has 317472 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.90 sec. (1188.71 ticks)
+Probing time = 0.19 sec. (102.71 ticks)
+Cover probing fixed 0 vars, tightened 476 bounds.
+Clique table members: 67.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 17.33 sec. (15364.80 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0     3829.7204    78                   3829.7204      267         
+      0     0     3825.3961    71                    Cuts: 26      539         
+      0     0     3823.8249    79                    Cuts: 13      993         
+      0     0     3823.8249    78                    Cuts: 18     1001         
+      0     0     3823.8249    82                     Cuts: 6     1005         
+      0     2     3823.8249    82                   3823.8249     1005                                 0             0
+Elapsed time = 45.81 sec. (56329.45 ticks, tree = 0.02 MB, solutions = 0)
+      1     3     3823.2956    81                   3823.2940     1145                     x320 U      6      0      1
+      2     4     3823.1635    98                   3823.1629     1185                  x308817 D     12      6      2
+      3     5     3823.0533    86                   3823.0592     1216                     x303 D     18     12      3
+      5     7     3822.8333    86                   3823.0592     1256                  x308881 U     30     24      5
+      8     9     3822.7150    88                   3823.0592     1272                  x308882 D     42     36      7
+     12    12     3819.9504    79                   3823.0592     1571                     x312 D     23     17      4
+     13    12     3822.5652    89                   3823.0592     1495                     x294 D     54     48      9
+     15    13     3798.8548    79                   3823.0592     1616                  x300892 U      7      1      6
+     18    15     3782.7369    80                   3823.0592     1641                  x300893 D     19      7      7
+     27    22     3819.9220    89                   3823.0592     2391                     x304 D     35     23      5
+Elapsed time = 721.60 sec. (60960.94 ticks, tree = 1.65 MB, solutions = 0)
+     38    40     3797.6951    79                   3822.9545     3337                     x252 D     79     73     17
+     50    49     3796.8112    81                   3822.9545     4079                  x300771 D    115    109     22
+     64    59     3820.7585    86                   3822.9545     5014                  x300933 D    144    138     24
+     74    71     3796.6640    79                   3822.9545     6044                  x300603 D    127    121     24
+
+Clique cuts applied:  3
+Implied bound cuts applied:  9
+Flow cuts applied:  3
+Mixed integer rounding cuts applied:  8
+Zero-half cuts applied:  6
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =   45.31 sec. (55381.94 ticks)
+Parallel b&c, 6 threads:
+  Real time             = 1016.82 sec. (777824.31 ticks)
+  Sync time (average)   =   59.32 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) = 1062.13 sec. (833206.25 ticks)
+========================================
+STATUS DA SOLUCAO: AbortTimeLim
+========================================
+Nao ha solucao viavel disponivel para impressao.

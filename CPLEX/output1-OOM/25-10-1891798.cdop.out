@@ -1,0 +1,39 @@
+=========== Input ===========
+File name:                ../instances/realistic-instances/25-10-1891798.cdop
+Total node count:         36
+Truck node count:         25
+Drone node count:         10
+=============================
+
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Threads                                 6
+CPXPARAM_TimeLimit                               1024
+Legacy callback                                  LD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 52 rows and 26 columns.
+MIP Presolve modified 1223272 coefficients.
+Reduced MIP has 28297 rows, 878753 columns, and 4517281 nonzeros.
+Reduced MIP has 878052 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 2.38 sec. (2948.61 ticks)
+Probing time = 0.50 sec. (284.11 ticks)
+Clique table members: 352.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 72.25 sec. (49329.54 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0     1856.9395   184                   1856.9395      279         
+      0     0     1819.7709   162                   Cuts: 109     3135         
+      0     0     1819.6666   177                    Cuts: 45     3238         
+      0     0     1819.6666   145                    Cuts: 19     3278         
+      0     0     1819.6666   152                    Cuts: 18     3286         
+      0     0     1819.6666   152                     Cuts: 4     3290         
+Heuristic still looking.
+Heuristic still looking.

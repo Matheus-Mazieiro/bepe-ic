@@ -1,0 +1,144 @@
+=========== Input ===========
+File name:                ../instances/realistic-instances/20-25-1762875.cdop
+Total node count:         46
+Truck node count:         20
+Drone node count:         25
+=============================
+
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Threads                                 6
+CPXPARAM_TimeLimit                               1024
+Legacy callback                                  LD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 42 rows and 21 columns.
+MIP Presolve modified 1311282 coefficients.
+Reduced MIP has 24152 rows, 936178 columns, and 5083561 nonzeros.
+Reduced MIP has 935717 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 2.92 sec. (3489.12 ticks)
+Probing time = 0.70 sec. (301.21 ticks)
+Clique table members: 232.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 58.25 sec. (42628.96 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0     2773.6477   130                   2773.6477      220         
+      0     0     2761.6917   125                    Cuts: 66     1572         
+      0     0     2761.6294   134                    Cuts: 59     1767         
+      0     0     2761.6294   138                    Cuts: 29     1802         
+      0     0     2761.6294   134                    Cuts: 21     1813         
+      0     0     2761.6294   135                     Cuts: 8     1826         
+Heuristic still looking.
+Heuristic still looking.
+Heuristic still looking.
+      0     2     2761.6294   135                   2761.6294     1826                                 0             0
+Elapsed time = 263.99 sec. (296274.31 ticks, tree = 0.02 MB, solutions = 0)
+      1     3     2758.9302   130                   2761.6294     2410                  x802633 N      5      0      1
+      2     4     2758.9302   127                   2761.6294     2429                  x430376 D     11      5      2
+      3     4     2758.9302   131                   2761.6294     2428                  x430376 N      4      5      2
+      4     5     2758.5049    75                   2761.6294     3328                     x604 U     17     11      3
+      5     3     2758.9302   129                   2761.3619     4074                  x802633 U      6      0      1
+      6     5     2758.5049    79                   2761.3619     3203                     x604 N      3     11      3
+      7     8     2758.9302   129                   2758.9302     5615                  x430376 D     12      6      2
+      8     9     2758.5049    70                   2758.9302     6383                     x609 D      9      3      4
+      9     6     2757.9841   133                   2758.9302     4524                     x604 U     10      4      3
+     11    11     2757.9841   127                   2758.9302     7429                     x128 U     15      9      5
+Elapsed time = 340.49 sec. (327717.31 ticks, tree = 1.25 MB, solutions = 0)
+     13    10     2758.1467   128                   2758.9302     7698                     x607 D     18     12      3
+     15    13     2757.7892   100                   2758.9302     9907                     x187 U     29     23      5
+     16    13     2757.4324   106                   2758.9302     9921                  x912714 D     22     16      5
+     19    15     2757.9841   122                   2758.9302    12674                     x607 U      8      2      4
+     20    16     2757.9841   129                   2758.9302    13872                     x604 U     24     18      4
+     21    17     2757.7892    75                   2758.9302    14011                     x611 U     35     29      6
+     22    22     2757.9841   116                   2758.9302    19431                     x609 D     14      8      5
+     23    23     2757.7892    93                   2758.9302    19944                     x187 U     30     24      5
+     24    19     2757.3634   108                   2758.9302    16991                  x912792 U     28     22      6
+     26    24     2757.4324   103                   2758.9302    20808                  x912714 D     41     35      7
+Elapsed time = 465.13 sec. (386647.90 ticks, tree = 2.89 MB, solutions = 0)
+     27    20     2754.6561   172                   2758.9302    21036                  x913330 D      7      1      5
+     28    25     2757.7892    88                   2758.9302    19997                  x430761 U     20     14      6
+     29    26     2757.4235    87                   2758.9302    20654                      x54 D     36     30      6
+     30    30     2754.6483    74                   2758.9302    26587                  x803016 U     13      7      6
+     31    28     2757.3286   108                   2758.9302    25266                  x912870 U     33     27      8
+     32    31     2754.8621   125                   2758.9302    28126                  x430761 D     26     14      6
+     34    27     2756.7754    95                   2758.9302    25257                  x912792 D     34     22      6
+     35    32     2757.3063    79                   2758.9302    29165                      x54 U     42     30      6
+     36    35     2757.4324   117                   2758.9302    32433                  x912906 D     32     20      7
+     37    33     2750.6408   126                   2758.9302    29115                  x803016 N     19      7      6
+Elapsed time = 640.41 sec. (469326.11 ticks, tree = 3.31 MB, solutions = 0)
+     38    40     2754.6412   100                   2758.9302    42647                      x87 U     25     13      7
+     39    41     2754.6401    91                   2758.9302    42670                  x738817 D     31     25      8
+     41    39     2757.3487   111                   2758.9302    41772                  x912870 U     38     32      8
+     42    38     2757.4235    78                   2758.9302    40201                     x611 D     48     36      7
+     43    37     2757.3286   101                   2758.9302    39369                     x611 D     40     28      7
+     44    42     2756.9647    97                   2758.9302    44121                  x913330 D     46     40      8
+     45    43     2757.0327   101                   2758.9302    45056                  x913330 U     52     40      8
+     46    44     2756.9197   103                   2758.9302    45458                     x394 D     58     46      9
+     47    41     2757.1181    89                   2758.9302    44434                  x913330 D     54     48      8
+     48    43     2753.4471   115                   2758.9302    45055                     x155 D     43     31      9
+Elapsed time = 717.10 sec. (500971.23 ticks, tree = 7.01 MB, solutions = 0)
+     49    46     2754.6091   102                   2758.9302    46282                     x154 U     49     37     10
+     50    36     2756.7754    74                   2758.9302    39460                  x912792 D     53     41      8
+     51    34     2756.7754    82                   2758.9302    35265                  x912870 D     39     27      8
+     53    48     2756.9647   111                   2758.9302    56976                  x913330 D     45     33      9
+     56    49     2757.0327   106                   2758.9302    57808                  x913330 U     51     33      9
+     58    50     2756.8174   115                   2758.9302    57928                  x913331 D     57     51     10
+     59    40     2756.7754    99                   2758.9302    46590                  x912870 D     44     32      8
+     60    54     2757.3286   106                   2758.9302    66934                     x128 U     50     38      9
+     65    55     2756.8325    91                   2758.9302    62532                  x803016 U     88     82     12
+     68    57     2757.2256    99                   2758.9302    67054                  x261953 D     68     62     12
+Elapsed time = 789.85 sec. (531074.30 ticks, tree = 11.12 MB, solutions = 0)
+     71    60     2757.2054    79                   2758.9302    67333                  x913154 D     86     74     14
+     72    61     2756.8415    83                   2758.9302    67753                  x913330 D     92     86     15
+     73    62     2756.9095    89                   2758.9302    68942                  x913330 U     98     86     15
+     74    63     2756.6942    98                   2758.9302    69292                  x913331 D    104     98     16
+     76    65     2756.4048    96                   2758.9302    69490                  x723476 D    116    110     18
+     78    66     2756.3864    96                   2758.9302    69529                  x724412 D    122    116     19
+     80    68     2756.3530   100                   2758.9302    69570                  x723538 D    134    128     21
+     83    54     2756.6587   105                   2758.9302    59967                  x724325 D     81     75     13
+     86    57     2754.0455    99                   2758.9302    71867                  x912754 D     67     61     12
+     89    63     2756.6141   136                   2758.9302    73965                  x913334 D     87     81     14
+Elapsed time = 852.64 sec. (551851.66 ticks, tree = 12.76 MB, solutions = 0)
+     90    64     2756.5670   142                   2758.9302    74083                     x394 D     93     87     15
+     91    65     2756.5310   130                   2758.9302    74278                  x724312 D     99     93     16
+     93    66     2756.4729   114                   2758.9302    74674                  x723476 D    105     99     17
+     96    89     2756.8315    93                   2758.9302    82833                     x593 D    100     88     13
+     97    84     2734.6139   103                   2758.9302    79170                  x663989 U    176    164     27
+     99    68     2752.8488   126                   2758.9302    76715                     x607 D    117    105     18
+    100    42     2757.2673    97                   2758.9302    45560                  x913330 U     60     48      8
+    101    48     2755.8062    64                   2758.9302    54711                     x394 U     65     47      9
+    102    85     2756.0899   114                   2758.9302    79216                  x671945 D    182    170     28
+    106    94     2754.7048    56                   2758.9302    90563                     x379 U     77     59     10
+Elapsed time = 967.33 sec. (593845.55 ticks, tree = 18.52 MB, solutions = 0)
+    107    95     2757.0621   110                   2758.9302    90886                     x100 U     83     71     11
+    108    91     2757.0668   112                   2758.9302    87141                  x912792 U     66     54      9
+    109    95     2756.0366   172                   2758.9302    91224                      x97 U    188    182     29
+    110    91     2744.7410   116                   2758.9302    90167                      x97 D    112    100     14
+    111    69     2756.3348    80                   2758.9302    76867                  x724412 D    123    111     19
+
+Clique cuts applied:  6
+Implied bound cuts applied:  32
+Flow cuts applied:  9
+Mixed integer rounding cuts applied:  6
+Zero-half cuts applied:  5
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =  261.42 sec. (293130.93 ticks)
+Parallel b&c, 6 threads:
+  Real time             =  764.69 sec. (327163.21 ticks)
+  Sync time (average)   =  149.78 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) = 1026.12 sec. (620294.15 ticks)
+========================================
+STATUS DA SOLUCAO: AbortTimeLim
+========================================
+Nao ha solucao viavel disponivel para impressao.

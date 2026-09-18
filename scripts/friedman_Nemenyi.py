@@ -43,16 +43,22 @@ def plot_cd_diagram(mean_ranks, cd, title="Critical Difference Diagram", filenam
 
 
 # Carrega os dados
-df = pd.read_csv('csv-instance-method.csv')
+df = pd.read_csv('nonRealistic-csv-instance-method.csv')
 algoritmos = df.columns[3:]
 dados = df[algoritmos]
 
 print(dados.columns)
 rename_map = {
+    "WS_Memetic_MMX": r"$\mathrm{_{WS}MMX_{+LS}}$",
+    "WS_Memetic-LS_MPX": r"$\mathrm{_{WS}MPX}$",
+    "WS_Memetic_MPX": r"$\mathrm{_{WS}MPX_{+LS}}$",
+    "WS_Memetic-LS_MMX": r"$\mathrm{_{WS}MMX}$",
+
     "Memetic_MMX": r"$\mathrm{MMX_{+LS}}$",
     "Memetic-LS_MPX": r"$\mathrm{MPX}$",
     "Memetic_MPX": r"$\mathrm{MPX_{+LS}}$",
     "Memetic-LS_MMX": r"$\mathrm{MMX}$",
+
     "Exact": r"$\mathrm{Gurobi}$"
 }
 dados = dados.rename(columns=rename_map)

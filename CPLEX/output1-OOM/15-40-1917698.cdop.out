@@ -1,0 +1,60 @@
+=========== Input ===========
+File name:                ../instances/realistic-instances/15-40-1917698.cdop
+Total node count:         56
+Truck node count:         15
+Drone node count:         40
+=============================
+
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Threads                                 6
+CPXPARAM_TimeLimit                               1024
+Legacy callback                                  LD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 32 rows and 16 columns.
+MIP Presolve modified 1011852 coefficients.
+Reduced MIP has 18507 rows, 806503 columns, and 4525084 nonzeros.
+Reduced MIP has 806232 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 2.53 sec. (3194.57 ticks)
+Probing time = 0.37 sec. (229.58 ticks)
+Cover probing fixed 0 vars, tightened 995 bounds.
+Clique table members: 137.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 64.81 sec. (52158.52 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0     3555.6695   111                   3555.6695      336         
+      0     0     3516.8210   115                    Cuts: 53     1291         
+      0     0     3516.8210   113                    Cuts: 33     1323         
+      0     0     3516.8210   111                    Cuts: 17     1337         
+      0     0     3516.8210   111                     Cuts: 5     1344         
+Heuristic still looking.
+Heuristic still looking.
+Heuristic still looking.
+
+Clique cuts applied:  4
+Implied bound cuts applied:  7
+Flow cuts applied:  10
+Mixed integer rounding cuts applied:  6
+Gomory fractional cuts applied:  2
+User cuts applied:  20
+
+Root node processing (before b&c):
+  Real time             = 2708.42 sec. (5179449.06 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) = 2708.42 sec. (5179449.06 ticks)
+========================================
+STATUS DA SOLUCAO: AbortTimeLim
+========================================
+Nao ha solucao viavel disponivel para impressao.

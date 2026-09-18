@@ -3,7 +3,6 @@
 #include "WarmStart.hpp"
 #define TWO_INDIVIDUAL_WS 0
 #define GREEDY_WS 0
-#define MARIO_WS 0
 
 Population::Population(Input &input, Settings &settings) : input(input), settings(settings)
 {
@@ -17,7 +16,7 @@ void Population::InitPop()
         pop.push_back(newIdividual);
     }
     // return;
-    if (MARIO_WS)
+    if (settings.warm_start == "Mario_WS")
     {
         std::vector<std::pair<int, bool>> solution(1, {0, true});
         WarmStart ws(input, settings);

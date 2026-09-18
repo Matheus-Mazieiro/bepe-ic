@@ -1,38 +1,41 @@
 import csv
 import os
 
-def instance_method(csv_media, csv_exact):
+def instance_method(csvs, csv_exact):
     objs = []
 
-    with open(csv_media, 'r') as f:
-        linhas = f.readlines()
-        for linha in linhas[1:]:
-            l = linha.split(',')
-            resultado = next((obj for obj in objs if obj.get('instance') == l[0]), None)
-            if(resultado == None):
-                resultado = {
-                    'instance': l[0],
-                    'm': l[2],
-                    'n': l[3],
-                }
-                objs.append(resultado)
-            #else
-            resultado[l[1]] = l[4]
+    for csv_media in csvs:
+        with open(csv_media, 'r') as f:
+            linhas = f.readlines()
+            for linha in linhas[1:]:
+                l = linha.split(',')
+                resultado = next((obj for obj in objs if obj.get('instance') == l[0]), None)
+                if(resultado == None):
+                    resultado = {
+                        'instance': l[0],
+                        'm': l[2],
+                        'n': l[3],
+                    }
+                    objs.append(resultado)
+                #else
+                ws = "" if ("sem" in csv_media) else "WS_"
+                resultado[ws + l[1]] = l[4]
 
-    with open(csv_exact) as f:
-        linhas = f.readlines()
-        for linha in linhas[1:]:
-            l = linha.split(',')
-            resultado = next((obj for obj in objs if obj.get('instance') == l[0]), None)
-            if(resultado == None):
-                resultado = {
-                    'instance': l[0],
-                    'm': l[2],
-                    'n': l[3],
-                }
-                objs.append(resultado)
-            #else
-            resultado[l[1]] = l[4]
+    if csv_exact != '':
+        with open(csv_exact) as f:
+            linhas = f.readlines()
+            for linha in linhas[1:]:
+                l = linha.split(',')
+                resultado = next((obj for obj in objs if obj.get('instance') == l[0]), None)
+                if(resultado == None):
+                    resultado = {
+                        'instance': l[0],
+                        'm': l[2],
+                        'n': l[3],
+                    }
+                    objs.append(resultado)
+                #else
+                resultado[l[1]] = l[4]
 
     return objs
 
@@ -49,8 +52,8 @@ def write_to_csv(objs, csv_out):
 
 
 if __name__ == "__main__":
-    csv_in = f'csv-ma-media.csv'
-    csv_exact = f'csv-exact.csv'
+    csv_in = [f'Output_realistic_comWS/csv-ma-media.csv', f'Output_realistic_semWS/csv-ma-media.csv']
+    csv_exact = f''
     csv_out = f'csv-instance-method.csv'
     objs = instance_method(csv_in, csv_exact)
     write_to_csv(objs, csv_out)

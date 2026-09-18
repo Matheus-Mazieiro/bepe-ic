@@ -2,7 +2,7 @@ import os
 import subprocess
 from joblib import Parallel, delayed
 
-input_path = './instances/created-instances'
+input_path = './instances/realistic-instances'
 settings_path = './settings'
 output_path = ''  # pode colocar './outputs' se quiser redirecionar para uma pasta
 
@@ -14,7 +14,11 @@ i = 0
 for input_file in input_files:
     for setting_file in setting_files:
         output = f'{input_file.split(".")[0]}_{setting_file.split(".")[0]}.out'
-        commands.append([i, f'./bepe {input_path}/{input_file} {settings_path}/{setting_file} {output_path}/WS_{output}'])
+        if os.path.isfile(f'./Output/WS_{output}'):
+            print(f'./Output/WS_{output} already exists')
+            continue
+        else:
+            commands.append([i, f'./bepe {input_path}/{input_file} {settings_path}/{setting_file} {output_path}/WS_{output}'])
         #commands.append([i, f'{input_path}/{input_file} {settings_path}/{setting_file} {output_path}/{output}'])
         i += 1
 
@@ -57,7 +61,7 @@ def run(exec_command):
     }
 
 # Executa os comandos em paralelo
-results = Parallel(n_jobs=1)(delayed(run)(cmd) for cmd in commands)
+results = Parallel(n_jobs=10)(delayed(run)(cmd) for cmd in commands)
 
 # Separando erros
 errors = [r for r in results if r["error"] is not None]

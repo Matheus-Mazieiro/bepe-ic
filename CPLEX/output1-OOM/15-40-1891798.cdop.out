@@ -1,0 +1,38 @@
+=========== Input ===========
+File name:                ../instances/realistic-instances/15-40-1891798.cdop
+Total node count:         56
+Truck node count:         15
+Drone node count:         40
+=============================
+
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Threads                                 6
+CPXPARAM_TimeLimit                               1024
+Legacy callback                                  LD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 32 rows and 16 columns.
+MIP Presolve modified 1078952 coefficients.
+Reduced MIP has 18507 rows, 806503 columns, and 4524926 nonzeros.
+Reduced MIP has 806232 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 2.92 sec. (3313.79 ticks)
+Probing time = 1.05 sec. (185.91 ticks)
+Cover probing fixed 0 vars, tightened 501 bounds.
+Clique table members: 137.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 71.59 sec. (56597.33 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0     3580.9830   117                   3580.9830      366         
+      0     0     3563.7386   102                    Cuts: 39      433         
+      0     0     3561.3808    84                    Cuts: 38      656         
+      0     0     3561.3808    84                    Cuts: 22      671         
+      0     0     3561.3808    84                    Cuts: 10      673         
+Heuristic still looking.

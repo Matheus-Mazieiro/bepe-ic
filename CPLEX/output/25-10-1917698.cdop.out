@@ -1,0 +1,145 @@
+=========== Input ===========
+File name:                ../instances/realistic-instances/25-10-1917698.cdop
+Total node count:         36
+Truck node count:         25
+Drone node count:         10
+=============================
+
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Threads                                 6
+CPXPARAM_TimeLimit                               1024
+Legacy callback                                  LD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 52 rows and 26 columns.
+MIP Presolve modified 1092302 coefficients.
+Reduced MIP has 28297 rows, 878753 columns, and 4519154 nonzeros.
+Reduced MIP has 878052 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 2.28 sec. (2867.66 ticks)
+Probing time = 0.63 sec. (284.16 ticks)
+Clique table members: 352.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 64.42 sec. (44358.93 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0     2025.2967   156                   2025.2967      252         
+      0     0     1998.2387   148                    Cuts: 52      677         
+      0     0     1998.2387   163                    Cuts: 76      732         
+      0     0     1997.7609   159                    Cuts: 27      876         
+      0     0     1996.5550   199                    Cuts: 20     2020         
+      0     0     1994.8038   129                    Cuts: 26     2751         
+      0     0     1994.8038   142                    Cuts: 18     2793         
+Heuristic still looking.
+Heuristic still looking.
+      0     2     1994.8038   142                   1994.8038     2793                                 0             0
+Elapsed time = 246.11 sec. (282760.47 ticks, tree = 0.02 MB, solutions = 0)
+      1     3     1993.9543   173                   1993.9414     3292                  x471204 D      6      0      1
+      2     4     1993.6647   175                   1993.9414     3308                  x473796 D     12      6      2
+      3     3     1982.5976   139                   1993.9414     4702                  x471204 N      5      0      1
+      4     6     1981.6945   157                   1993.9414     5394                  x379443 D     11      5      2
+      5     4     1990.1528   178                   1993.9414     4585                  x473796 N      4      6      2
+      6     6     1978.0176   186                   1993.9414     6954                  x379443 N      2      5      2
+      7     5     1991.2615   180                   1993.9414     5536                      x62 D     18     12      3
+      8     7     1980.8118   146                   1993.9414     6923                     x427 D     17     11      3
+      9     5     1988.2314   179                   1993.9414     5967                      x62 N      3     12      3
+     10     7     1976.9621   139                   1993.9414     7362                     x427 N      1     11      3
+Elapsed time = 355.46 sec. (326242.89 ticks, tree = 0.02 MB, solutions = 0)
+     12     9     1977.9331   155                   1993.6647     9035                     x415 U      8      2      3
+     13    12     1982.8219   172                   1991.1889    16562                     x408 U      9      3      4
+     14    14     1977.8210   142                   1991.1889    19438                     x427 D     14      8      4
+     15    11     1978.6942   160                   1991.1889    14498                     x415 D     23     17      4
+     17    14     1983.5986   170                   1991.1889    20424                  x379443 U     16     10      4
+     18    13     1973.3024   147                   1991.1889    19372                     x415 D      7      1      4
+     19    20     1972.6796   135                   1991.1889    31983                  x315205 D     13      7      5
+     20    18     1984.0271   169                   1991.1889    28306                     x486 D     30     24      5
+     22    17     1977.3040   159                   1991.1889    24994                     x408 U     29     23      5
+     23    19     1976.4463   177                   1991.1889    31777                      x42 D     22     16      5
+Elapsed time = 569.56 sec. (408920.48 ticks, tree = 2.59 MB, solutions = 0)
+     24    16     1968.7310   162                   1991.1889    25532                     x434 D     20     14      5
+     25    24     1977.0900   139                   1991.1889    38550                     x632 N     35     29      6
+     26    22     1980.4179   173                   1991.1889    36284                      x42 D     36     30      6
+     28    21     1968.7058   179                   1991.1889    34982                  x315205 U     19      7      5
+     29    26     1968.6583   159                   1991.1889    45341                  x315205 U     26     20      6
+     30    27     1976.0164   182                   1991.1889    46624                     x632 D     41     29      6
+     31    30     1971.9277   144                   1991.1889    55591                  x315202 D     25     13      6
+     32    29     1975.8563   115                   1991.1889    54027                      x42 U     27     15      6
+     34    32     1976.0528   149                   1991.1889    57471                      x42 D     47     35      7
+     35    28     1979.0607   164                   1991.1889    51774                      x42 U     42     30      6
+Elapsed time = 696.00 sec. (494536.94 ticks, tree = 3.45 MB, solutions = 0)
+     39    32     1968.5423   145                   1991.1889    55582                     x761 D     38     32      8
+     41    34     1968.4661   147                   1991.1889    55758                     x345 D     50     38      9
+     42    35     1960.2573   124                   1991.1889    56286                     x345 U     56     38      9
+     44    36     1976.4285   171                   1991.1889    70805                  x473697 D     34     22      6
+     46    37     1976.3592   155                   1991.1889    71201                     x391 U     40     34      7
+     48    33     1976.0870   130                   1991.1889    58967                      x42 U     53     35      7
+     49    43     1976.0415   119                   1991.1889    74937                      x44 D     59     53      8
+     50    34     1971.4543   118                   1991.1889    59685                     x391 D     37     25      7
+     52    36     1975.5982   104                   1991.1889    62043                     x391 D     45     33      8
+     53    39     1976.0476   174                   1991.1889    73862                      x61 D     52     46      8
+Elapsed time = 795.49 sec. (524084.50 ticks, tree = 7.32 MB, solutions = 0)
+     54    36     1968.6415   149                   1991.1889    61809                     x406 U     49     37      8
+     57    36     1975.7581   185                   1991.1889    67297                     x434 D     54     36      7
+     58    41     1968.4158   141                   1991.1889    71331                     x362 D     62     50     10
+     59    55     1968.2765   156                   1991.1889    88981                     x366 D     68     62     11
+     60    56     1959.5329   135                   1991.1889    89550                     x366 U     74     62     11
+     61    44     1974.0303   142                   1991.1889    77543                      x44 U     65     53      8
+     63    58     1968.2765   137                   1991.1889    89803                  x156786 U     86     68     12
+     64    37     1973.5874   121                   1991.1889    65783                     x391 U     51     33      8
+     65    61     1975.5982    87                   1991.1889    97873                  x482602 D     57     45      9
+     66    52     1975.5860   161                   1991.1889    86860                  x473255 D     64     58     10
+Elapsed time = 869.07 sec. (554807.21 ticks, tree = 11.19 MB, solutions = 0)
+     70    50     1971.3534   119                   1991.1889    81490                     x626 D     73     55     10
+     72    54     1975.4518   178                   1991.1889    87262                  x379078 D     76     70     12
+     74    54     1976.4970   145                   1991.1889    90971                      x57 D     60     48      8
+     76    59     1967.9700   147                   1991.1889    91747                      x57 D     92     86     13
+     77    57     1975.8840   120                   1991.1889    94100                     x394 D     71     59      9
+     78    58     1974.8998   143                   1991.1889    94585                     x394 U     77     59      9
+     82    68     1975.8576   144                   1991.1889   103297                     x406 U     83     71     10
+     84    76     1970.9436   122                   1991.1889   107133                  x851346 D    103     97     14
+     85    77     1960.1168   111                   1991.1889   107756                  x851346 U    109     97     14
+     88    80     1975.3090   194                   1991.1889   112069                  x379118 D    100     94     16
+Elapsed time = 935.36 sec. (578560.38 ticks, tree = 17.21 MB, solutions = 0)
+     89    81     1975.2990   159                   1991.1889   112156                  x473347 D    106    100     17
+     91    55     1976.7336   119                   1991.1889    92953                      x57 U     66     48      8
+     92    82     1976.6940   139                   1991.1889   115755                     x761 D     72     66      9
+     93    83     1975.0099   183                   1991.1889   113515                     x632 D    118    112     19
+     94    84     1974.9329   185                   1991.1889   113563                  x473473 D    124    118     20
+     97    84     1976.1608   116                   1991.1889   116672                     x374 D     84     78     10
+     98    79     1970.8551   115                   1991.1889   108250                  x852298 D    121    115     16
+     99    80     1960.2914    86                   1991.1889   108371                  x852298 U    127    115     16
+    102    81     1970.8101   122                   1991.1889   108600                  x378094 D    133    121     17
+    103    87     1974.8224   184                   1991.1889   114708                     x366 D    142    136     23
+Elapsed time = 993.34 sec. (597858.33 ticks, tree = 20.22 MB, solutions = 0)
+    104    88     1974.7548   184                   1991.1889   114883                  x473394 D    148    142     24
+    105    82     1958.3709    97                   1991.1889   109052                  x378094 U    139    121     17
+    108    90     1974.7415   187                   1991.1889   115008                  x472685 D    160    154     26
+    109    91     1974.6866   144                   1991.1889   115205                     x434 U    166    160     27
+    110    84     1953.3588   123                   1991.1889   110387                  x312558 U    151    133     18
+
+Clique cuts applied:  8
+Implied bound cuts applied:  27
+Flow cuts applied:  10
+Mixed integer rounding cuts applied:  20
+Zero-half cuts applied:  6
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =  243.63 sec. (279385.91 ticks)
+Parallel b&c, 6 threads:
+  Real time             =  782.04 sec. (333842.14 ticks)
+  Sync time (average)   =   82.56 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) = 1025.67 sec. (613228.05 ticks)
+========================================
+STATUS DA SOLUCAO: AbortTimeLim
+========================================
+Nao ha solucao viavel disponivel para impressao.

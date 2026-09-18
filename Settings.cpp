@@ -21,6 +21,7 @@ Settings::Settings(const std::string &filename) : settings_file(filename)
         file >> solving_method;
         file >> crossover;
         file >> local_search;
+        file >> warm_start;
     }
     catch (std::ifstream::failure &e)
     {
@@ -38,6 +39,7 @@ void Settings::PrintSettings(std::ostream &file_out) const
     file_out << "Population size:      " << population_size << std::endl;
     file_out << "Crossover:            " << crossover << std::endl;
     file_out << "Local Search:         " << local_search << std::endl;
+    file_out << "Warm Start:           " << warm_start << std::endl;
     file_out << "==============================" << std::endl;
     file_out << std::endl;
 }

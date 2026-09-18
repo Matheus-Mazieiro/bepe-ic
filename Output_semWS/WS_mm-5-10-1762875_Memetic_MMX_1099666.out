@@ -1,0 +1,161 @@
+=========== Input ===========
+File name:                ./instances/created-instances/mm-5-10-1762875.cdop
+Total node count:         16
+Truck node count:         5
+Drone node count:         10
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic_MMX_1099666.config
+Seed:                 1099666
+Reduction method:     -
+Max iter:             1024000
+Population size:      13
+Crossover:            MA-MMX
+Local Search:         LS
+Warm Start:           -
+==============================
+
+====== Algorithm Status ======
+Valor:                2208
+Time:                 250
+nIter:                215
+Best Iter:            215
+Improvement Count:    214
+==============================
+Solution tour: 
+0 2 1 8 1 2 8 2 9 
+2 14 13 5 10 5 15 
+5 11 4 12 4 14 7 14 4 6 10 11 5 
+==============================
+
+====== Algorithm Status ======
+Valor:                2221
+Time:                 500
+nIter:                417
+Best Iter:            417
+Improvement Count:    416
+==============================
+Solution tour: 
+0 2 1 8 1 2 8 2 9 
+2 3 13 5 10 6 10 5 15 
+5 11 4 12 4 14 7 14 4 6 
+==============================
+
+====== Algorithm Status ======
+Valor:                2234
+Time:                 1001
+nIter:                828
+Best Iter:            828
+Improvement Count:    827
+==============================
+Solution tour: 
+0 2 1 8 1 2 8 2 9 
+2 3 13 5 10 6 10 5 11 
+5 15 12 4 12 4 14 7 14 4 6 
+==============================
+
+====== Algorithm Status ======
+Valor:                2234
+Time:                 2001
+nIter:                1656
+Best Iter:            1656
+Improvement Count:    1655
+==============================
+Solution tour: 
+0 2 1 8 1 2 8 2 9 
+2 3 13 5 10 6 10 5 11 
+5 15 12 4 12 4 14 7 14 4 6 
+==============================
+
+====== Algorithm Status ======
+Valor:                2234
+Time:                 4000
+nIter:                3213
+Best Iter:            3213
+Improvement Count:    3212
+==============================
+Solution tour: 
+0 2 1 8 1 2 8 2 9 
+2 3 13 5 10 6 10 5 11 
+5 15 12 4 12 4 14 7 14 4 6 
+==============================
+
+====== Algorithm Status ======
+Valor:                2251
+Time:                 8000
+nIter:                6323
+Best Iter:            6323
+Improvement Count:    6322
+==============================
+Solution tour: 
+0 2 1 8 1 2 8 2 9 
+2 3 13 5 10 6 10 5 11 
+5 15 14 4 12 4 14 7 14 15 5 6 
+==============================
+
+====== Algorithm Status ======
+Valor:                2251
+Time:                 16001
+nIter:                12636
+Best Iter:            12636
+Improvement Count:    12635
+==============================
+Solution tour: 
+0 2 1 8 1 2 8 2 9 
+2 3 13 5 10 6 10 5 11 
+5 15 14 4 12 4 14 7 14 15 5 6 
+==============================
+
+====== Algorithm Status ======
+Valor:                2251
+Time:                 32000
+nIter:                25186
+Best Iter:            25186
+Improvement Count:    25185
+==============================
+Solution tour: 
+0 2 1 8 1 2 8 2 9 
+2 3 13 5 10 6 10 5 11 
+5 15 14 4 12 4 14 7 14 15 5 6 
+==============================
+
+====== Algorithm Status ======
+Valor:                2261
+Time:                 64002
+nIter:                50507
+Best Iter:            50507
+Improvement Count:    50506
+==============================
+Solution tour: 
+0 6 10 5 11 5 15 14 4 12 
+4 14 7 14 13 
+3 15 5 10 6 8 2 9 2 1 8 1 2 8 11 
+==============================
+
+====== Algorithm Status ======
+Valor:                2270
+Time:                 128000
+nIter:                105287
+Best Iter:            105287
+Improvement Count:    105286
+==============================
+Solution tour: 
+0 11 5 15 14 4 12 
+4 14 7 14 3 13 14 15 
+5 10 6 10 5 11 8 2 9 2 1 8 1 2 8 11 
+==============================
+
+====== Algorithm Status ======
+Valor:                2270
+Time:                 256000
+nIter:                215194
+Best Iter:            215194
+Improvement Count:    215193
+==============================
+Solution tour: 
+0 11 5 15 14 4 12 
+4 14 7 14 3 13 14 15 
+5 10 6 10 5 11 8 2 9 2 1 8 1 2 8 11 
+==============================
+

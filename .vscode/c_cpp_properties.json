@@ -5,7 +5,9 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/memetic",
-                "/home/matheus-ubunto/constraint_programming/gurobi1202/linux64/include"
+                "/home/matheus-ubunto/constraint_programming/gurobi1202/linux64/include",
+                "/opt/ibm/ILOG/CPLEX_Studio222/cplex/include",
+                "/opt/ibm/ILOG/CPLEX_Studio222/concert/include",
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

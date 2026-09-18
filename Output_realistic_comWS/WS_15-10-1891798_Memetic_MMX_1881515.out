@@ -1,0 +1,201 @@
+=========== Input ===========
+File name:                ./instances/realistic-instances/15-10-1891798.cdop
+Total node count:         26
+Truck node count:         15
+Drone node count:         10
+=============================
+
+========== Settings ==========
+Settings file:        ./settings/Memetic_MMX_1881515.config
+Seed:                 1881515
+Reduction method:     -
+Max iter:             1024000
+Population size:      13
+Crossover:            MA-MMX
+Local Search:         LS
+Warm Start:           Mario_WS
+==============================
+
+====== Algorithm Status ======
+Valor:                1993
+Time:                 250
+nIter:                141
+Best Iter:            141
+Improvement Count:    140
+==============================
+Solution tour: 
+0 5 17 23 10 1 
+10 
+12 25 12 16 12 24 21 19 20 22 18 22 11 8 
+7 8 11 17 5 0 17 
+==============================
+
+====== Algorithm Status ======
+Valor:                2020
+Time:                 500
+nIter:                306
+Best Iter:            306
+Improvement Count:    305
+==============================
+Solution tour: 
+0 5 17 23 25 12 10 1 
+10 12 24 12 16 21 18 19 20 22 18 22 11 8 
+7 8 11 17 5 0 17 
+==============================
+
+====== Algorithm Status ======
+Valor:                2029
+Time:                 1001
+nIter:                613
+Best Iter:            613
+Improvement Count:    612
+==============================
+Solution tour: 
+0 5 17 10 1 
+10 12 25 12 24 12 16 21 18 19 21 16 20 22 18 22 23 11 8 
+7 8 11 17 5 0 17 
+==============================
+
+====== Algorithm Status ======
+Valor:                2029
+Time:                 2000
+nIter:                1175
+Best Iter:            1175
+Improvement Count:    1174
+==============================
+Solution tour: 
+0 5 17 10 1 
+10 12 25 12 24 12 16 21 18 19 21 16 20 22 18 22 23 11 8 
+7 8 11 17 5 0 17 
+==============================
+
+====== Algorithm Status ======
+Valor:                2029
+Time:                 4000
+nIter:                2298
+Best Iter:            2298
+Improvement Count:    2297
+==============================
+Solution tour: 
+0 5 17 10 1 
+10 12 25 12 24 12 16 21 18 19 21 16 20 22 18 22 23 11 8 
+7 8 11 17 5 0 17 
+==============================
+
+====== Algorithm Status ======
+Valor:                2029
+Time:                 8001
+nIter:                4650
+Best Iter:            4650
+Improvement Count:    4649
+==============================
+Solution tour: 
+0 5 17 10 1 
+10 12 25 12 24 12 16 21 18 19 21 16 20 22 18 22 23 11 8 
+7 8 11 17 5 0 17 
+==============================
+
+====== Algorithm Status ======
+Valor:                2029
+Time:                 16000
+nIter:                9227
+Best Iter:            9227
+Improvement Count:    9226
+==============================
+Solution tour: 
+0 5 17 10 1 
+10 12 25 12 24 12 16 21 18 19 21 16 20 22 18 22 23 11 8 
+7 8 11 17 5 0 17 
+==============================
+
+====== Algorithm Status ======
+Valor:                2029
+Time:                 32002
+nIter:                18566
+Best Iter:            18566
+Improvement Count:    18565
+==============================
+Solution tour: 
+0 5 17 10 1 
+10 12 25 12 24 12 16 21 18 19 21 16 20 22 18 22 23 11 8 
+7 8 11 17 5 0 17 
+==============================
+
+====== Algorithm Status ======
+Valor:                2029
+Time:                 64000
+nIter:                36536
+Best Iter:            36536
+Improvement Count:    36535
+==============================
+Solution tour: 
+0 5 17 10 1 
+10 12 25 12 24 12 16 21 18 19 21 16 20 22 18 22 23 11 8 
+7 8 11 17 5 0 17 
+==============================
+
+====== Algorithm Status ======
+Valor:                2029
+Time:                 128000
+nIter:                68824
+Best Iter:            68824
+Improvement Count:    68823
+==============================
+Solution tour: 
+0 5 17 10 1 
+10 12 25 12 24 12 16 21 18 19 21 16 20 22 18 22 23 11 8 
+7 8 11 17 5 0 17 
+==============================
+
+====== Algorithm Status ======
+Valor:                2035
+Time:                 256000
+nIter:                136091
+Best Iter:            136091
+Improvement Count:    136090
+==============================
+Solution tour: 
+0 5 17 22 18 20 19 18 21 16 12 10 1 
+10 12 25 12 24 12 16 21 18 22 23 11 8 
+7 8 11 17 5 0 17 
+==============================
+
+====== Algorithm Status ======
+Valor:                2035
+Time:                 512001
+nIter:                272146
+Best Iter:            272146
+Improvement Count:    272145
+==============================
+Solution tour: 
+0 5 17 22 18 20 19 18 21 16 12 10 1 
+10 12 25 12 24 12 16 21 18 22 23 11 8 
+7 8 11 17 5 0 17 
+==============================
+
+====== Algorithm Status ======
+Valor:                2035
+Time:                 1024001
+nIter:                542623
+Best Iter:            542623
+Improvement Count:    542624
+==============================
+Solution tour: 
+0 5 17 22 18 20 19 18 21 16 12 10 1 
+10 12 25 12 24 12 16 21 18 22 23 11 8 
+7 8 11 17 5 0 17 
+==============================
+
+====== Algorithm Status ======
+Valor:                2035
+Time:                 1024001
+nIter:                542623
+Best Iter:            542623
+Improvement Count:    542624
+==============================
+Solution tour: 
+0 5 17 22 18 20 19 18 21 16 12 10 1 
+10 12 25 12 24 12 16 21 18 22 23 11 8 
+7 8 11 17 5 0 17 
+==============================
+

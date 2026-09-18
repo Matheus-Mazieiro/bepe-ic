@@ -1,0 +1,122 @@
+=========== Input ===========
+File name:                ../instances/realistic-instances/10-40-1110588.cdop
+Total node count:         51
+Truck node count:         10
+Drone node count:         40
+=============================
+
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Threads                                 6
+CPXPARAM_TimeLimit                               1024
+Legacy callback                                  LD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 22 rows and 11 columns.
+MIP Presolve modified 445842 coefficients.
+Reduced MIP has 9277 rows, 317603 columns, and 1795093 nonzeros.
+Reduced MIP has 317472 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.91 sec. (1264.77 ticks)
+Probing time = 0.18 sec. (102.34 ticks)
+Cover probing fixed 0 vars, tightened 352 bounds.
+Clique table members: 67.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 6.52 sec. (5820.77 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0     3620.7178   115                   3620.7178       78         
+      0     0     3615.4518    97                    Cuts: 22      210         
+      0     0     3615.4518    70                    Cuts: 16      222         
+      0     0     3615.4518    74                 ZeroHalf: 2      224         
+      0     0     3615.4518    84                 ZeroHalf: 2      227         
+      0     2     3615.4518    84                   3615.4518      227                                 0             0
+Elapsed time = 364.81 sec. (805683.96 ticks, tree = 0.02 MB, solutions = 0)
+      1     3     3615.0998    83                   3615.1474      259                     x204 U      6      0      1
+      2     3     3614.9235    46                   3615.1474      277                     x204 N      5      0      1
+      3     4     3613.5363    69                   3615.1474      522                      x79 D     12      6      2
+      5     5     3614.6624    48                   3615.0474      519                      x79 U     11      5      2
+      6     8     3614.4241    48                   3615.0474      970                     x292 D     17     11      3
+     10     4     3614.6624    46                   3615.0474      493                      x79 N      4      6      2
+     11    12     3614.4241    44                   3614.8725     1592                     x292 D     10      4      3
+     14    12     3613.2570    84                   3614.8725     1356                     x255 D     13      7      6
+     16    14     3614.3701    65                   3614.8725     1651                  x308697 D     22     16      5
+     29    24     3613.3793    50                   3614.8725     2455                     x292 U     14      2      4
+Elapsed time = 374.25 sec. (811214.96 ticks, tree = 1.35 MB, solutions = 0)
+     40    38     3612.9795    74                   3614.6624     3704                     x259 D     55     49     13
+     49    37     3614.2312    52                   3614.6624     3881                     x154 U     53     47      9
+     71    58     3613.0185    82                   3614.6624     6243                     x297 D     90     84     13
+     87    73     3613.9608    49                   3614.6624     6521                     x288 D    142    136     23
+    108    95     3613.8245    67                   3614.6624     8288                   x44048 D    184    172     29
+    129    83     3598.5481    53                   3614.6624     7752                   x71672 U    138    126     19
+    151   132     3612.4520    50                   3614.6624    10309                  x308671 D    152    146     25
+    172   152     3612.2502    88                   3614.6624    11237                     x247 D    216    210     32
+    193   173     3613.1734    43                   3614.6624    11569                   x44804 D    346    340     56
+    217   194     3611.5429    61                   3614.6624    13763                  x262712 D    248    236     40
+Elapsed time = 395.82 sec. (821177.31 ticks, tree = 16.48 MB, solutions = 0)
+    238   198     3611.4482    55                   3614.6624    14000                      x60 D    272    266     44
+    248   217     3611.1841    82                   3614.6624    15403                      x73 U    296    290     48
+    253   197     3609.6532    74                   3614.6624    14349                     x192 D    306    294     45
+    259   236     3610.1297    76                   3614.6624    17844                     x277 U    318    300     46
+    270   259     3609.3628    60                   3614.6624    20055                     x285 D    159    153     23
+    291   257     3611.2931    70                   3614.6624    20294                  x167463 D    354    348     51
+    306   277     3610.7144    49                   3614.6624    20889                     x284 D    356    350     57
+    331   280     3610.6253    63                   3614.6624    20919                  x137788 D    374    368     60
+    343   320     3611.2124    71                   3614.6624    23965                     x304 D    241    235     38
+    361   325     3610.8679    71                   3614.6624    24139                  x195997 D    271    265     43
+Elapsed time = 415.88 sec. (831020.94 ticks, tree = 34.14 MB, solutions = 0)
+    378   344     3559.5716    42                   3614.6624    27306                     x272 U    646    634     99
+    392   368     3610.8016    69                   3614.6624    28523                  x232610 D    301    289     47
+    404   327     3613.1237    47                   3614.6624    25812                  x260737 D    245    239     38
+    421   354     3563.5872    56                   3614.6624    28306                     x257 D    456    444     66
+    429   393     3610.0032   117                   3614.6624    30280                     x241 D    355    349     55
+    443   401     3563.4222    36                   3614.6624    31407                  x168337 D    486    480     70
+    457   412     3534.9208    52                   3614.6624    34051                  x300995 U    494    488     74
+    471   447     3610.7389    78                   3614.6624    36240                   x51595 D    736    730    112
+    494   452     3610.4557    62                   3614.6624    36507                   x77604 D    766    760    117
+    511   466     3607.1906    99                   3614.6624    38905                   x75528 D    363    357     53
+Elapsed time = 436.55 sec. (841061.61 ticks, tree = 53.15 MB, solutions = 0)
+    523   474     3562.9014    56                   3614.6624    41134                  x166691 D    588    576     85
+    534   492     3606.8471   115                   3614.6624    41725                  x173461 D    417    411     62
+    546   475     3608.9545    73                   3614.6624    40282                  x187499 D    475    469     74
+    553   521     3608.6522   108                   3614.6624    42939                  x173376 D    505    499     79
+    562   528     3608.2631   109                   3614.6624    43127                  x188752 D    547    541     86
+    569   434     3593.1309    60                   3614.6624    37536                   x75528 U    407    395     63
+    572   531     3596.8160    88                   3614.6624    43919                  x186850 U    565    553     88
+    575   534     3575.4658    78                   3614.6624    47825                  x187518 U    465    453     67
+    584   560     3520.0591    80                   3614.6624    51303                     x303 U    583    577     91
+    590   563     3607.8394    99                   3614.6624    51429                  x173596 D    601    595     93
+Elapsed time = 802.62 sec. (852380.44 ticks, tree = 66.97 MB, solutions = 0)
+    600   571     3562.8777    64                   3614.6624    55214                  x148116 D    868    856    130
+    608   576     3560.0174    64                   3614.6624    55491                  x145784 D    898    892    134
+    616   582     3506.4179    34                   3614.6624    56123                      x49 U    655    643    100
+    620   582     3507.2064    67                   3614.6624    58866                     x110 U    560    548     81
+    626   566     3568.3440   101                   3614.6624    59206                      x60 U    437    425     66
+    627   583     3501.0000     0                   3614.6624    56143                  x172211 D    661    655    101
+
+Clique cuts applied:  3
+Implied bound cuts applied:  12
+Flow cuts applied:  2
+Mixed integer rounding cuts applied:  3
+Zero-half cuts applied:  5
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  1
+User cuts applied:  6092
+
+Root node processing (before b&c):
+  Real time             =  364.46 sec. (805309.28 ticks)
+Parallel b&c, 6 threads:
+  Real time             =  778.00 sec. (819002.71 ticks)
+  Sync time (average)   =   14.23 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) = 1142.46 sec. (1624311.99 ticks)
+========================================
+STATUS DA SOLUCAO: AbortTimeLim
+========================================
+Nao ha solucao viavel disponivel para impressao.
