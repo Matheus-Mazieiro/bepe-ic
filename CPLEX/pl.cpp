@@ -191,17 +191,33 @@ ILOLAZYCONSTRAINTCALLBACK2(ConnectivityCallback, BoolVarMatrix4D, y, const Input
 
             int comp = 0;
 
+            std::queue<int> Q;
+            Q.push(i);
+            component[i] = comp;
+            while (!Q.empty())
+            {
+                int u = Q.front();
+                Q.pop();
+
+                for (int v : G[u])
+                {
+                    if (component[v] == -1)
+                    {
+                        component[v] = comp;
+                        Q.push(v);
+                    }
+                }
+            }
+            comp++;
+
+
             for (int s = 0; s < N; s++)
             {
                 if (component[s] != -1)
                     continue;
 
-                std::queue<int> Q;
-
                 Q.push(s);
-
                 component[s] = comp;
-
                 while (!Q.empty())
                 {
                     int u = Q.front();
@@ -356,7 +372,7 @@ int main(int argc, char *argv[])
                 r2_r += x[j][i];
             }
             model.add(r2_l == r2_r);
-            model.add(r2_r == 1);
+            model.add(r2_r <= 1);
         }
 
         // 3.
